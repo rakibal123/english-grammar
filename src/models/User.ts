@@ -9,6 +9,7 @@ export interface IUser extends Document {
   guestId?: string;
   isGuest: boolean;
   role: 'user' | 'admin';
+  userType?: 'student' | 'teacher';
   avatar?: string;
   xp: number;
   level: number;
@@ -28,6 +29,7 @@ const UserSchema = new Schema<IUser>(
     guestId: { type: String, sparse: true, unique: true },
     isGuest: { type: Boolean, default: true },
     role: { type: String, enum: ['user', 'admin'], default: 'user' },
+    userType: { type: String, enum: ['student', 'teacher'], default: 'student' },
     avatar: String,
     xp: { type: Number, default: 0 },
     level: { type: Number, default: 1 },

@@ -38,7 +38,10 @@ export async function GET(request: NextRequest) {
   return NextResponse.json({
     id: user._id.toString(),
     username: user.username,
+    email: user.email,
     isGuest: user.isGuest,
+    role: user.role || 'user',
+    userType: user.userType || 'student',
     xp: user.xp,
     level: user.level,
     currentStreak: user.currentStreak,

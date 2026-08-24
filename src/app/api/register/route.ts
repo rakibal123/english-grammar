@@ -5,7 +5,8 @@ import bcrypt from 'bcryptjs';
 
 export async function POST(request: NextRequest) {
   try {
-    const { username, email, password, guestId } = await request.json();
+    const { username, email, password, guestId, userType } = await request.json();
+    const typeOfUser = userType === 'teacher' ? 'teacher' : 'student';
 
     if (!username || !email || !password) {
       return NextResponse.json({ error: 'All fields required' }, { status: 400 });
@@ -27,6 +28,7 @@ export async function POST(request: NextRequest) {
           authProvider: 'credentials',
           isGuest: false,
           role: 'user',
+          userType: typeOfUser,
         },
         { new: true }
       );
@@ -40,6 +42,7 @@ export async function POST(request: NextRequest) {
       authProvider: 'credentials',
       isGuest: false,
       role: 'user',
+      userType: typeOfUser,
     });
 
     return NextResponse.json({ success: true, userId: user._id.toString() });

@@ -8,6 +8,7 @@ import { useRouter } from 'next/navigation';
 export default function RegisterPage() {
   const router = useRouter();
   const [form, setForm] = useState({ username: '', email: '', password: '' });
+  const [userType, setUserType] = useState<'student' | 'teacher'>('student');
   const [showPass, setShowPass] = useState(false);
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
@@ -28,7 +29,7 @@ export default function RegisterPage() {
       const res = await fetch('/api/register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ...form, guestId }),
+        body: JSON.stringify({ ...form, userType, guestId }),
       });
 
       const data = await res.json();
@@ -59,6 +60,37 @@ export default function RegisterPage() {
         </div>
 
         <div className="card">
+          {/* User Type Selector: Only Student and Teacher */}
+          <div className="mb-5">
+            <label className="text-xs font-semibold text-[#76777D] uppercase tracking-wider block mb-2">
+              I am joining as:
+            </label>
+            <div className="grid grid-cols-2 gap-2 bg-[#F8F9FF] p-1 rounded-xl border border-[#E8EAEE]">
+              <button
+                type="button"
+                onClick={() => setUserType('student')}
+                className={`py-2 text-xs font-semibold rounded-lg transition-all flex items-center justify-center gap-1.5 ${
+                  userType === 'student'
+                    ? 'bg-[#4F46E5] text-white shadow-sm'
+                    : 'text-[#45464D] hover:text-[#0B1C30]'
+                }`}
+              >
+                🎓 Student
+              </button>
+              <button
+                type="button"
+                onClick={() => setUserType('teacher')}
+                className={`py-2 text-xs font-semibold rounded-lg transition-all flex items-center justify-center gap-1.5 ${
+                  userType === 'teacher'
+                    ? 'bg-[#4F46E5] text-white shadow-sm'
+                    : 'text-[#45464D] hover:text-[#0B1C30]'
+                }`}
+              >
+                👨‍🏫 Teacher
+              </button>
+            </div>
+          </div>
+
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
               <label className="text-sm font-medium text-[#45464D] block mb-1.5">Username</label>

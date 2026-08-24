@@ -9,9 +9,28 @@ export default function LoginPage() {
   const router = useRouter();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [userType, setUserType] = useState<'student' | 'teacher'>('student');
   const [showPass, setShowPass] = useState(false);
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
+
+  const checkRedirectPath = async () => {
+    try {
+      const userRes = await fetch('/api/guest');
+      if (userRes.ok) {
+        const userData = await userRes.json();
+        if (userData.role === 'admin') {
+          router.push('/admin');
+          router.refresh();
+          return;
+        }
+      }
+    } catch {
+      // ignore
+    }
+    router.push('/dashboard');
+    router.refresh();
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -31,8 +50,7 @@ export default function LoginPage() {
       });
 
       if (res.ok || res.redirected) {
-        router.push('/dashboard');
-        router.refresh();
+        await checkRedirectPath();
       } else {
         setError('Invalid email or password');
       }
@@ -54,8 +72,7 @@ export default function LoginPage() {
         });
 
         if (signInRes.ok) {
-          router.push('/dashboard');
-          router.refresh();
+          await checkRedirectPath();
         } else {
           setError('Invalid email or password');
         }
@@ -82,6 +99,37 @@ export default function LoginPage() {
         </div>
 
         <div className="card">
+          {/* User Type Selector: Only Student and Teacher */}
+          <div className="mb-5">
+            <label className="text-xs font-semibold text-[#76777D] uppercase tracking-wider block mb-2">
+              Sign in as:
+            </label>
+            <div className="grid grid-cols-2 gap-2 bg-[#F8F9FF] p-1 rounded-xl border border-[#E8EAEE]">
+              <button
+                type="button"
+                onClick={() => setUserType('student')}
+                className={`py-2 text-xs font-semibold rounded-lg transition-all flex items-center justify-center gap-1.5 ${
+                  userType === 'student'
+                    ? 'bg-[#4F46E5] text-white shadow-sm'
+                    : 'text-[#45464D] hover:text-[#0B1C30]'
+                }`}
+              >
+                🎓 Student
+              </button>
+              <button
+                type="button"
+                onClick={() => setUserType('teacher')}
+                className={`py-2 text-xs font-semibold rounded-lg transition-all flex items-center justify-center gap-1.5 ${
+                  userType === 'teacher'
+                    ? 'bg-[#4F46E5] text-white shadow-sm'
+                    : 'text-[#45464D] hover:text-[#0B1C30]'
+                }`}
+              >
+                👨‍🏫 Teacher
+              </button>
+            </div>
+          </div>
+
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
               <label className="block text-sm font-medium text-[#45464D] mb-1.5">Email</label>
