@@ -32,17 +32,36 @@ export async function GET(
   { params }: { params: Promise<{ slug: string }> }
 ) {
   const { slug } = await params;
-  await connectDB();
+  let topic: any = null;
+  let dbLessons: any[] = [];
+  let dbExamples: any[] = [];
+  let testSets: any[] = [];
 
-  let topic = await GrammarTopic.findOne({ slug }).populate('categoryId', 'title');
-  if (!topic) {
-    try {
-      const { seedDatabase } = await import('@/lib/seed');
-      await seedDatabase();
-      topic = await GrammarTopic.findOne({ slug }).populate('categoryId', 'title');
-    } catch (e) {
-      console.error('Auto-seed error:', e);
+  try {
+    await connectDB();
+    topic = await GrammarTopic.findOne({ slug }).populate('categoryId', 'title');
+    if (!topic) {
+      try {
+        const { seedDatabase } = await import('@/lib/seed');
+        await seedDatabase();
+        topic = await GrammarTopic.findOne({ slug }).populate('categoryId', 'title');
+      } catch (e) {
+        console.error('Auto-seed error:', e);
+      }
     }
+
+    if (topic) {
+      const [l, ex, ts] = await Promise.all([
+        Lesson.find({ topicId: topic._id, status: 'published' }).sort('order'),
+        Example.find({ topicId: topic._id }).sort('order'),
+        TestSet.find({ topicId: topic._id }).sort('order'),
+      ]);
+      dbLessons = l;
+      dbExamples = ex;
+      testSets = ts;
+    }
+  } catch (dbErr) {
+    console.warn(`[api/topics/${slug}] Database unreachable, serving resilient fallback:`, dbErr);
   }
 
   const jsonLesson = lessonsData[slug];
@@ -57,14 +76,25 @@ export async function GET(
 
   if (!finalTopic) return NextResponse.json({ error: 'Not found' }, { status: 404 });
 
-  const [dbLessons, dbExamples, testSets] = topic ? await Promise.all([
-    Lesson.find({ topicId: topic._id, status: 'published' }).sort('order'),
-    Example.find({ topicId: topic._id }).sort('order'),
-    TestSet.find({ topicId: topic._id }).sort('order'),
-  ]) : [[], [], []];
-
   let lessons = JSON.parse(JSON.stringify(dbLessons));
   let examples = JSON.parse(JSON.stringify(dbExamples));
+  let finalTestSets = JSON.parse(JSON.stringify(testSets));
+
+  if (!finalTestSets || finalTestSets.length === 0) {
+    finalTestSets = [
+      {
+        _id: slug,
+        topicId: finalTopic._id,
+        title: `${finalTopic.title} Practice Test`,
+        description: 'Test your understanding with authentic, context-based questions.',
+        difficulty: 'medium',
+        questionCount: 10,
+        timeLimitMinutes: 15,
+        passingScore: 70,
+        order: 1,
+      },
+    ];
+  }
 
   // Fetch from lessons.json for comprehensive lesson details
   if (jsonLesson) {
@@ -99,6 +129,6 @@ export async function GET(
     topic: JSON.parse(JSON.stringify(finalTopic)),
     lessons,
     examples,
-    testSets: JSON.parse(JSON.stringify(testSets)),
+    testSets: finalTestSets,
   });
 }

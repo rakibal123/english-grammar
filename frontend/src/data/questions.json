@@ -1,4 +1,101 @@
 {
+  "present-simple": [
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 1,
+      "questionText": "She ___ to school on foot every morning.",
+      "options": ["go", "goes", "going", "gone"],
+      "correctAnswer": "goes",
+      "explanation": "Use 'goes' with third-person singular subjects (he/she/it) in Present Simple.",
+      "banglaExplanation": "He/She/It এর সাথে ক্রিয়ার শেষে -s/-es যুক্ত হয়, তাই 'goes' সঠিক।",
+      "tags": ["present-simple", "third-person"]
+    },
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 2,
+      "questionText": "I ___ English with my tutor every Friday.",
+      "options": ["study", "studies", "studying", "studied"],
+      "correctAnswer": "study",
+      "explanation": "Use base form 'study' with first-person singular pronoun 'I'.",
+      "banglaExplanation": "'I' এর সাথে ভার্ব-এর মূল রূপ (base form) বসে, তাই 'study' সঠিক।",
+      "tags": ["present-simple", "first-person"]
+    },
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 3,
+      "questionText": "They ___ football in the community park every weekend.",
+      "options": ["play", "plays", "playing", "played"],
+      "correctAnswer": "play",
+      "explanation": "Use base form 'play' for third-person plural subject 'They'.",
+      "banglaExplanation": "'They' বহুবচন কর্তা হওয়ায় verb-এর সাথে -s/-es যোগ হবে না, 'play' সঠিক।",
+      "tags": ["present-simple", "plural-subject"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 4,
+      "questionText": "He ___ not drink coffee late at night.",
+      "options": ["does", "do", "is", "did"],
+      "correctAnswer": "does",
+      "explanation": "In Present Simple negative sentences with he/she/it, use the auxiliary 'does not'.",
+      "banglaExplanation": "He/She/It এর নেতিবাচক বাক্যে 'does not' ব্যবহৃত হয়।",
+      "tags": ["present-simple", "negative"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 5,
+      "questionText": "___ you understand the new grammar rule clearly?",
+      "options": ["Do", "Does", "Are", "Did"],
+      "correctAnswer": "Do",
+      "explanation": "For question form with 'you' in Present Simple, start with auxiliary 'Do'.",
+      "banglaExplanation": "'You' এর প্রশ্নবোধক বাক্যে শুরুতে 'Do' বসে।",
+      "tags": ["present-simple", "question"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 6,
+      "questionText": "The sun ___ in the east and sets in the west.",
+      "options": ["rises", "rise", "rising", "rose"],
+      "correctAnswer": "rises",
+      "explanation": "Universal truths and natural laws always take Present Simple with singular verb 'rises'.",
+      "banglaExplanation": "চিরন্তন সত্য প্রকাশ করতে Present Simple tense এবং একবচনে 'rises' হবে।",
+      "tags": ["present-simple", "universal-truth"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 7,
+      "questionText": "Which sentence correctly demonstrates the negative form of Present Simple?",
+      "options": [
+        "She doesn't goes to university on Fridays.",
+        "She don't go to university on Fridays.",
+        "She doesn't go to university on Fridays.",
+        "She not goes to university on Fridays."
+      ],
+      "correctAnswer": "She doesn't go to university on Fridays.",
+      "explanation": "After auxiliary 'does/doesn't', the main verb must always be in its base form ('go', not 'goes').",
+      "banglaExplanation": "'doesn't' এর পর মূল verb-এর base form (go) বসে, -s/-es যুক্ত হয় না।",
+      "tags": ["present-simple", "error-identification"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 8,
+      "questionText": "Water ___ at 100 degrees Celsius under standard atmospheric pressure.",
+      "options": ["boils", "boil", "is boiling", "boiled"],
+      "correctAnswer": "boils",
+      "explanation": "Scientific facts are always stated in the Present Simple tense.",
+      "banglaExplanation": "বৈজ্ঞানিক সত্য বা চিরন্তন নিয়ম বুঝাতে Present Simple ব্যবহৃত হয়।",
+      "tags": ["present-simple", "scientific-fact"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 9,
+      "questionText": "My sister usually ___ her homework before having dinner.",
+      "options": ["finishes", "finish", "is finishing", "finished"],
+      "correctAnswer": "finishes",
+      "explanation": "With frequency adverbs like 'usually' and third-person singular 'my sister', use 'finishes'.",
+      "banglaExplanation": "'usually' অভ্যাসের লক্ষণ এবং তৃতীয় পুরুষ একবচনের সাথে 'finishes' বসে।",
+      "tags": ["present-simple", "routine"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 10,
+      "questionText": "Why ___ he always arrive late for the morning meeting?",
+      "options": ["does", "do", "is", "has"],
+      "correctAnswer": "does",
+      "explanation": "In Wh-questions with third-person singular subject 'he', use auxiliary 'does'.",
+      "banglaExplanation": "Wh-questions এ he-এর পূর্বে সাহায্যকারী ক্রিয়া হিসেবে 'does' বসে।",
+      "tags": ["present-simple", "wh-question"]
+    }
+  ],
   "present-continuous": [
     {
       "type": "MCQ", "difficulty": "easy", "order": 1,
