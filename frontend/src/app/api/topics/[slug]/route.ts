@@ -67,7 +67,6 @@ export async function GET(
   let examples = JSON.parse(JSON.stringify(dbExamples));
 
   // Fetch from lessons.json for comprehensive lesson details
-  const jsonLesson = lessonsData[slug];
   if (jsonLesson) {
     lessons = [
       {
