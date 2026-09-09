@@ -78,7 +78,7 @@ export async function GET(
 
   let lessons = JSON.parse(JSON.stringify(dbLessons));
   let examples = JSON.parse(JSON.stringify(dbExamples));
-  let finalTestSets = JSON.parse(JSON.stringify(testSets));
+  let finalTestSets = JSON.parse(JSON.stringify(testSets)).slice(0, 1);
 
   if (!finalTestSets || finalTestSets.length === 0) {
     finalTestSets = [

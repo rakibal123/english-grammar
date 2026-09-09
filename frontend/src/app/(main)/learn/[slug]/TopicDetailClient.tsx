@@ -334,7 +334,9 @@ export default function TopicDetailClient({ slug }: { slug: string }) {
       {/* Practice tab */}
       {activeTab === 'practice' && (
         <div className="space-y-4">
-          <p className="text-sm text-lighter">{testSets.length} practice sets available</p>
+          <p className="text-sm text-lighter">
+            {testSets.length === 1 ? '1 practice set available' : `${testSets.length} practice sets available`}
+          </p>
           <div className="space-y-3">
             {testSets.map((ts, i) => (
               <Link

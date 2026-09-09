@@ -471,24 +471,6 @@ export async function seedDatabase() {
       order: 1,
       setType: 'practice',
     },
-    {
-      topicId: presentSimple._id,
-      title: 'Practice Set 02',
-      description: 'Intermediate practice for Present Simple',
-      questionIds: questions.slice(10, 20).map(q => q._id),
-      questionCount: 10,
-      order: 2,
-      setType: 'practice',
-    },
-    {
-      topicId: presentSimple._id,
-      title: 'Practice Set 03',
-      description: 'Advanced practice for Present Simple',
-      questionIds: questions.slice(20, 30).map(q => q._id),
-      questionCount: 10,
-      order: 3,
-      setType: 'practice',
-    },
   ]);
 
   return { message: 'Database seeded successfully' };
