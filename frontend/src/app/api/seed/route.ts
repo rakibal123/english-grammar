@@ -3,8 +3,8 @@ import { seedDatabase } from '@/lib/seed';
 
 export async function POST(request: NextRequest) {
   // Simple security check
-  const authHeader = request.headers.get('authorization');
-  if (authHeader !== `Bearer ${process.env.NEXTAUTH_SECRET}`) {
+  const expectedSecret = process.env.NEXTAUTH_SECRET || 'grammarflow-super-secret-key-change-in-production';
+  if (authHeader !== `Bearer ${expectedSecret}`) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 

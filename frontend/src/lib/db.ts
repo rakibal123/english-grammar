@@ -32,21 +32,23 @@ export async function connectDB(): Promise<typeof mongoose> {
   if (cached.conn) return cached.conn;
 
   if (!cached.promise) {
-    const primaryUri = process.env.MONGODB_URI;
+    const primaryUri =
+      process.env.MONGODB_URI ||
+      'mongodb+srv://rakibalmahmud22_db_user:vfWsFr79ohYlzaMU@cluster0.ikgg8ph.mongodb.net/test?appName=Cluster0';
 
     cached.promise = (async () => {
       let useMemory = !primaryUri;
 
       if (primaryUri) {
         try {
-          return await mongoose.connect(primaryUri, { bufferCommands: false, serverSelectionTimeoutMS: 3000 });
+          return await mongoose.connect(primaryUri, { bufferCommands: false, serverSelectionTimeoutMS: 5000 });
         } catch (err) {
           console.warn('[db] Primary MongoDB unreachable, falling back to in-memory:', (err as Error).message);
           useMemory = true;
         }
       }
 
-      if (useMemory) {
+      if (useMemory && !process.env.VERCEL) {
         const memUri = await startMemoryServer();
         const conn = await mongoose.connect(memUri, { bufferCommands: false });
 

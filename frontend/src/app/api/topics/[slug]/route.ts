@@ -34,14 +34,34 @@ export async function GET(
   const { slug } = await params;
   await connectDB();
 
-  const topic = await GrammarTopic.findOne({ slug }).populate('categoryId', 'title');
-  if (!topic) return NextResponse.json({ error: 'Not found' }, { status: 404 });
+  let topic = await GrammarTopic.findOne({ slug }).populate('categoryId', 'title');
+  if (!topic) {
+    try {
+      const { seedDatabase } = await import('@/lib/seed');
+      await seedDatabase();
+      topic = await GrammarTopic.findOne({ slug }).populate('categoryId', 'title');
+    } catch (e) {
+      console.error('Auto-seed error:', e);
+    }
+  }
 
-  const [dbLessons, dbExamples, testSets] = await Promise.all([
+  const jsonLesson = lessonsData[slug];
+  const finalTopic = topic || (jsonLesson ? {
+    _id: `topic-${slug}`,
+    title: jsonLesson.title.replace('Understanding ', ''),
+    slug,
+    description: jsonLesson.description,
+    order: 1,
+    color: '#4F46E5',
+  } : null);
+
+  if (!finalTopic) return NextResponse.json({ error: 'Not found' }, { status: 404 });
+
+  const [dbLessons, dbExamples, testSets] = topic ? await Promise.all([
     Lesson.find({ topicId: topic._id, status: 'published' }).sort('order'),
     Example.find({ topicId: topic._id }).sort('order'),
     TestSet.find({ topicId: topic._id }).sort('order'),
-  ]);
+  ]) : [[], [], []];
 
   let lessons = JSON.parse(JSON.stringify(dbLessons));
   let examples = JSON.parse(JSON.stringify(dbExamples));
@@ -52,7 +72,7 @@ export async function GET(
     lessons = [
       {
         _id: dbLessons[0]?._id?.toString() || `lesson-${slug}`,
-        topicId: topic._id,
+        topicId: finalTopic._id,
         title: jsonLesson.title,
         description: jsonLesson.description,
         rules: jsonLesson.rules,
@@ -66,7 +86,7 @@ export async function GET(
       if (!examples || examples.length <= 2) {
         examples = jsonLesson.examples.map((ex, idx) => ({
           _id: `ex-${slug}-${idx + 1}`,
-          topicId: topic._id,
+          topicId: finalTopic._id,
           englishText: ex.englishText,
           banglaText: ex.banglaText,
           category: ex.category || 'General',
@@ -77,7 +97,7 @@ export async function GET(
   }
 
   return NextResponse.json({
-    topic: JSON.parse(JSON.stringify(topic)),
+    topic: JSON.parse(JSON.stringify(finalTopic)),
     lessons,
     examples,
     testSets: JSON.parse(JSON.stringify(testSets)),
