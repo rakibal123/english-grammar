@@ -1,0 +1,1114 @@
+{
+  "present-continuous": [
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 1,
+      "questionText": "Listen! The baby ___ in the other room.",
+      "options": ["cries", "is crying", "cry", "crying"],
+      "correctAnswer": "is crying",
+      "explanation": "Use 'is crying' because the action is taking place right now at the moment of speaking.",
+      "banglaExplanation": "কথা বলার মুহূর্তে শিশুটি কাঁদছে, তাই 'is crying' সঠিক।",
+      "tags": ["present-continuous", "action-now"]
+    },
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 2,
+      "questionText": "They ___ football on the school ground right now.",
+      "options": ["is playing", "are playing", "plays", "playing"],
+      "correctAnswer": "are playing",
+      "explanation": "Subject 'They' is plural, so use 'are playing'.",
+      "banglaExplanation": "'They' বহুবচন কর্তা, তাই 'are playing' হবে।",
+      "tags": ["present-continuous", "plural-subject"]
+    },
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 3,
+      "questionText": "I ___ for my university admission test this month.",
+      "options": ["am preparing", "is preparing", "are preparing", "prepares"],
+      "correctAnswer": "am preparing",
+      "explanation": "Use 'am preparing' with the subject 'I' for an ongoing temporary activity.",
+      "banglaExplanation": "'I' এর সাথে am এবং verb-ing ব্যবহৃত হয়।",
+      "tags": ["present-continuous", "temporary-action"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 4,
+      "questionText": "Look at the dark clouds; it ___ to rain.",
+      "options": ["starts", "is starting", "start", "started"],
+      "correctAnswer": "is starting",
+      "explanation": "'Look at the dark clouds' indicates an event currently developing, requiring Present Continuous.",
+      "banglaExplanation": "বর্তমান লক্ষণ নির্দেশ করছে যে বৃষ্টি শুরু হচ্ছে, তাই 'is starting'।",
+      "tags": ["present-continuous", "developing-action"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 5,
+      "questionText": "He ___ (not / attend) classes today because he is sick.",
+      "options": ["isn't attending", "aren't attending", "doesn't attend", "not attending"],
+      "correctAnswer": "isn't attending",
+      "explanation": "Negative Present Continuous for He: is + not + attending (isn't attending).",
+      "banglaExplanation": "He-এর ক্ষেত্রে নেতিবাচক বাক্যে 'isn't attending' বসে।",
+      "tags": ["present-continuous", "negative"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 6,
+      "questionText": "___ you ___ your homework at the moment?",
+      "options": ["Are / doing", "Do / doing", "Is / doing", "Have / done"],
+      "correctAnswer": "Are / doing",
+      "explanation": "Questions in Present Continuous with You: Are + Subject (you) + V-ing (doing)?",
+      "banglaExplanation": "You দিয়ে প্রশ্ন তৈরি করতে 'Are you doing' বসে।",
+      "tags": ["present-continuous", "question"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 7,
+      "questionText": "I ___ the solution to this math problem right now.",
+      "options": ["know", "am knowing", "knows", "knowing"],
+      "correctAnswer": "know",
+      "explanation": "'Know' is a stative verb expressing mental state, so it uses Present Simple instead of Continuous.",
+      "banglaExplanation": "'Know' একটি stative verb, তাই ing যোগ না হয়ে 'know' হয়।",
+      "tags": ["present-continuous", "stative-verbs"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 8,
+      "questionText": "Identify the correct spelling: 'He is ___ to catch the bus.'",
+      "options": ["running", "runing", "runneing", "runned"],
+      "correctAnswer": "running",
+      "explanation": "For one-syllable verbs ending in consonant-vowel-consonant (run), double the final consonant before -ing.",
+      "banglaExplanation": "Run শব্দের শেষে CVC নিয়ম অনুযায়ী 'n' দ্বিগুণ হয়ে 'running' হয়।",
+      "tags": ["present-continuous", "spelling-rules"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 9,
+      "questionText": "Why ___ that stranger ___ at us so suspiciously?",
+      "options": ["is / staring", "are / staring", "does / stare", "is / stare"],
+      "correctAnswer": "is / staring",
+      "explanation": "Wh-word + is + singular subject (that stranger) + V-ing (staring).",
+      "banglaExplanation": "একবচন কর্তার ক্ষেত্রে 'is ... staring' সঠিক।",
+      "tags": ["present-continuous", "wh-question"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 10,
+      "questionText": "Which sentence correctly uses Present Continuous for a confirmed future arrangement?",
+      "options": [
+        "We are meeting the principal tomorrow at 10 AM.",
+        "We meet the principal tomorrow at 10 AM.",
+        "We will meeting the principal tomorrow at 10 AM.",
+        "We are meet the principal tomorrow at 10 AM."
+      ],
+      "correctAnswer": "We are meeting the principal tomorrow at 10 AM.",
+      "explanation": "Present Continuous commonly expresses fixed future plans with a specific time and arrangement.",
+      "banglaExplanation": "ভবিষ্যতের পূর্বনির্ধারিত কর্মসূচির জন্য Present Continuous ব্যবহার করা হয়।",
+      "tags": ["present-continuous", "future-arrangement"]
+    }
+  ],
+  "present-perfect": [
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 1,
+      "questionText": "I ___ my room keys. I can't unlock the door now!",
+      "options": ["have lost", "lost", "has lost", "am losing"],
+      "correctAnswer": "have lost",
+      "explanation": "Use 'have lost' because the past action has an immediate result in the present.",
+      "banglaExplanation": "চাবি হারানোর ফলাফল বর্তমানে বিদ্যমান, তাই 'have lost' সঠিক।",
+      "tags": ["present-perfect", "present-result"]
+    },
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 2,
+      "questionText": "She ___ three different foreign languages fluently.",
+      "options": ["has learned", "have learned", "is learning", "learned"],
+      "correctAnswer": "has learned",
+      "explanation": "Subject 'She' takes 'has' + V3 (learned).",
+      "banglaExplanation": "She এর সাথে 'has learned' বসে।",
+      "tags": ["present-perfect", "third-person"]
+    },
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 3,
+      "questionText": "The guests have already ___ their dinner.",
+      "options": ["eaten", "ate", "eat", "eating"],
+      "correctAnswer": "eaten",
+      "explanation": "After 'have/has', the verb must always be in past participle (V3) form: eat → ate → eaten.",
+      "banglaExplanation": "have-এর পর verb-এর V3 রূপ 'eaten' বসে।",
+      "tags": ["present-perfect", "v3-form"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 4,
+      "questionText": "We haven't received the admission letter ___.",
+      "options": ["yet", "already", "just", "since"],
+      "correctAnswer": "yet",
+      "explanation": "'Yet' is used in negative sentences and questions in Present Perfect to mean until now.",
+      "banglaExplanation": "নেতিবাচক বাক্যে 'এখনও না' বোঝাতে বাক্যের শেষে 'yet' বসে।",
+      "tags": ["present-perfect", "signal-words"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 5,
+      "questionText": "Mr. Karim has worked at this college ___ 2012.",
+      "options": ["since", "for", "from", "in"],
+      "correctAnswer": "since",
+      "explanation": "Use 'since' with a specific starting point in time (2012).",
+      "banglaExplanation": "নির্দিষ্ট সূচনাকাল বোঝাতে 'since' ব্যবহৃত হয়।",
+      "tags": ["present-perfect", "since-vs-for"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 6,
+      "questionText": "___ you ever ___ a tiger in the wild?",
+      "options": ["Have / seen", "Did / see", "Has / seen", "Do / see"],
+      "correctAnswer": "Have / seen",
+      "explanation": "To ask about life experience: Have + you + ever + seen (V3)?",
+      "banglaExplanation": "জীবনের অভিজ্ঞতা জানতে 'Have you ever seen' ব্যবহৃত হয়।",
+      "tags": ["present-perfect", "experience-question"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 7,
+      "questionText": "They have lived in Sylhet ___ eight years.",
+      "options": ["for", "since", "during", "ago"],
+      "correctAnswer": "for",
+      "explanation": "Use 'for' when referring to a duration or period of time (eight years).",
+      "banglaExplanation": "সময়ের ব্যাপ্তি বা সময়কাল বোঝাতে 'for' বসে।",
+      "tags": ["present-perfect", "duration"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 8,
+      "questionText": "Which sentence is grammatically INCORRECT?",
+      "options": [
+        "I have completed my work yesterday.",
+        "I completed my work yesterday.",
+        "I have already completed my work.",
+        "I have just completed my work."
+      ],
+      "correctAnswer": "I have completed my work yesterday.",
+      "explanation": "Never use specific past time words like 'yesterday' with Present Perfect; use Past Simple instead.",
+      "banglaExplanation": "'yesterday'-এর সাথে Present Perfect বসে না, Past Simple বসে।",
+      "tags": ["present-perfect", "error-identification"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 9,
+      "questionText": "He ___ his ankle, so he cannot play in the final match today.",
+      "options": ["has sprained", "sprained", "is spraining", "had sprained"],
+      "correctAnswer": "has sprained",
+      "explanation": "The injury happened in the past, but the effect directly impacts today's match, requiring Present Perfect.",
+      "banglaExplanation": "অতীতের কাজের প্রভাব বর্তমানে স্পষ্ট, তাই Present Perfect।",
+      "tags": ["present-perfect", "cause-effect"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 10,
+      "questionText": "Choose the correctly punctuated and formatted Present Perfect sentence:",
+      "options": [
+        "She has never traveled abroad by herself.",
+        "She have never traveled abroad by herself.",
+        "She has never travel abroad by herself.",
+        "She has never traveling abroad by herself."
+      ],
+      "correctAnswer": "She has never traveled abroad by herself.",
+      "explanation": "Subject 'She' takes 'has' + frequency adverb 'never' + V3 'traveled'.",
+      "banglaExplanation": "She এর সাথে 'has never traveled' সঠিক রূপ।",
+      "tags": ["present-perfect", "adverb-placement"]
+    }
+  ],
+  "present-perfect-continuous": [
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 1,
+      "questionText": "It ___ raining heavily since 6 o'clock this morning.",
+      "options": ["has been", "have been", "is", "was"],
+      "correctAnswer": "has been",
+      "explanation": "Subject 'It' takes 'has been' + V-ing for an ongoing action starting in the past.",
+      "banglaExplanation": "সকাল থেকে এখনও বৃষ্টি হচ্ছে, তাই 'has been raining'।",
+      "tags": ["present-perfect-continuous", "weather"]
+    },
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 2,
+      "questionText": "I have been ___ for your phone call for two hours.",
+      "options": ["waiting", "waited", "wait", "waits"],
+      "correctAnswer": "waiting",
+      "explanation": "Present Perfect Continuous requires the -ing form of the verb after 'have been'.",
+      "banglaExplanation": "'have been'-এর পর verb-এর ing রূপ 'waiting' বসে।",
+      "tags": ["present-perfect-continuous", "verb-form"]
+    },
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 3,
+      "questionText": "They ___ preparing for the medical entrance test all year.",
+      "options": ["have been", "has been", "are", "were"],
+      "correctAnswer": "have been",
+      "explanation": "Plural subject 'They' takes 'have been'.",
+      "banglaExplanation": "They বহুবচন হওয়ায় 'have been' বসবে।",
+      "tags": ["present-perfect-continuous", "subject-verb"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 4,
+      "questionText": "He is sweating profusely because he ___ in the gym.",
+      "options": ["has been exercising", "exercises", "exercised", "had exercised"],
+      "correctAnswer": "has been exercising",
+      "explanation": "The physical evidence (sweating) is explained by a recently ongoing activity.",
+      "banglaExplanation": "শারীরিক ক্লান্তির কারণ হিসেবে চলমান ব্যায়ামকে বোঝাতে 'has been exercising'।",
+      "tags": ["present-perfect-continuous", "present-evidence"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 5,
+      "questionText": "How long ___ software development?",
+      "options": [
+        "have you been learning",
+        "are you learning",
+        "do you learn",
+        "you have been learning"
+      ],
+      "correctAnswer": "have you been learning",
+      "explanation": "How long + have + subject (you) + been + V-ing (learning)?",
+      "banglaExplanation": "কতদিন ধরে শিখছেন তা জানতে 'have you been learning' সঠিক।",
+      "tags": ["present-perfect-continuous", "duration-question"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 6,
+      "questionText": "She ___ (not / take) her prescribed vitamins lately.",
+      "options": [
+        "hasn't been taking",
+        "haven't been taking",
+        "isn't taking",
+        "doesn't take"
+      ],
+      "correctAnswer": "hasn't been taking",
+      "explanation": "Negative Present Perfect Continuous for She: hasn't been + taking.",
+      "banglaExplanation": "She এর নেতিবাচক রূপ 'hasn't been taking'।",
+      "tags": ["present-perfect-continuous", "negative"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 7,
+      "questionText": "The municipal workers ___ the drainage system since Monday.",
+      "options": [
+        "have been repairing",
+        "has been repairing",
+        "are repairing",
+        "repaired"
+      ],
+      "correctAnswer": "have been repairing",
+      "explanation": "Plural subject 'workers' takes 'have been repairing'.",
+      "banglaExplanation": "Plural subject এর সাথে 'have been repairing' বসে।",
+      "tags": ["present-perfect-continuous", "plural"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 8,
+      "questionText": "Why is 'I have been knowing him for 5 years' grammatically wrong?",
+      "options": [
+        "'Know' is a stative verb and cannot be used in continuous forms.",
+        "'Know' cannot take an object.",
+        "'Five years' requires 'since', not 'for'.",
+        "There is no grammatical error in this sentence."
+      ],
+      "correctAnswer": "'Know' is a stative verb and cannot be used in continuous forms.",
+      "explanation": "Stative verbs (know, believe, understand) take Present Perfect Simple ('I have known him').",
+      "banglaExplanation": "'Know' একটি stative verb তাই continuous এ ব্যবহৃত হয় না।",
+      "tags": ["present-perfect-continuous", "stative-trap"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 9,
+      "questionText": "Your eyes are bloodshot! What ___ doing on your phone all night?",
+      "options": ["have you been", "are you", "had you been", "were you"],
+      "correctAnswer": "have you been",
+      "explanation": "'What have you been doing' connects an ongoing nocturnal activity to the visible present condition.",
+      "banglaExplanation": "বর্তমান লক্ষণ দেখে চলমান কাজের ব্যাখ্যা চাইতে 'have you been' বসে।",
+      "tags": ["present-perfect-continuous", "dialogue"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 10,
+      "questionText": "Fill in the blanks: 'She has been working here ___ March, so she has been with us ___ 7 months.'",
+      "options": ["since / for", "for / since", "from / for", "since / during"],
+      "correctAnswer": "since / for",
+      "explanation": "Use 'since' for the starting point (March) and 'for' for the total duration (7 months).",
+      "banglaExplanation": "নির্দিষ্ট মাসের ক্ষেত্রে 'since' এবং মোট সময়কালের ক্ষেত্রে 'for' বসে।",
+      "tags": ["present-perfect-continuous", "since-for-contrast"]
+    }
+  ],
+  "past-simple": [
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 1,
+      "questionText": "We ___ an exciting cricket match on TV yesterday evening.",
+      "options": ["watched", "watch", "watches", "watching"],
+      "correctAnswer": "watched",
+      "explanation": "'Yesterday' specifies a completed past time, requiring the past form (V2) 'watched'.",
+      "banglaExplanation": "গতকাল ঘটে যাওয়া কাজের জন্য verb-এর অতীত রূপ (V2) 'watched' বসে।",
+      "tags": ["past-simple", "regular-verb"]
+    },
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 2,
+      "questionText": "She ___ a modern laptop from the market last week.",
+      "options": ["bought", "buy", "buys", "buying"],
+      "correctAnswer": "bought",
+      "explanation": "The irregular past tense (V2) of 'buy' is 'bought'.",
+      "banglaExplanation": "Buy এর অতীত রূপ হলো 'bought'।",
+      "tags": ["past-simple", "irregular-verb"]
+    },
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 3,
+      "questionText": "He ___ (not / attend) the board meeting yesterday.",
+      "options": ["didn't attend", "didn't attended", "doesn't attend", "not attended"],
+      "correctAnswer": "didn't attend",
+      "explanation": "In negative Past Simple, use 'didn't' + base verb (attend). Never use V2 after didn't.",
+      "banglaExplanation": "didn't এর পর verb-এর মূল রূপ (V1) 'attend' বসে।",
+      "tags": ["past-simple", "negative-structure"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 4,
+      "questionText": "___ you submit your research assignment on Friday?",
+      "options": ["Did", "Do", "Were", "Have"],
+      "correctAnswer": "Did",
+      "explanation": "Past Simple questions begin with 'Did' + subject + base verb.",
+      "banglaExplanation": "অতীতে প্রশ্ন করতে বাক্যের শুরুতে 'Did' বসে।",
+      "tags": ["past-simple", "question-formation"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 5,
+      "questionText": "Where ___ you spend your Eid holidays last year?",
+      "options": ["did", "do", "were", "have"],
+      "correctAnswer": "did",
+      "explanation": "Wh-word + did + subject (you) + base verb (spend).",
+      "banglaExplanation": "Wh-প্রশ্নে did + subject + মূল verb বসে।",
+      "tags": ["past-simple", "wh-question"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 6,
+      "questionText": "When I was in school, I ___ five miles every single day.",
+      "options": ["walked", "walk", "walks", "walking"],
+      "correctAnswer": "walked",
+      "explanation": "Describes a completed past routine or habit that no longer occurs.",
+      "banglaExplanation": "অতীতের নিয়মিত অভ্যাসের জন্য Past Simple 'walked' বসে।",
+      "tags": ["past-simple", "past-habit"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 7,
+      "questionText": "Which sentence is grammatically correct?",
+      "options": [
+        "She didn't write the email.",
+        "She didn't wrote the email.",
+        "She not wrote the email.",
+        "She didn't written the email."
+      ],
+      "correctAnswer": "She didn't write the email.",
+      "explanation": "'Didn't' must be followed by the base form 'write', not 'wrote' or 'written'.",
+      "banglaExplanation": "didn't এর পর সর্বদাই base verb 'write' হবে।",
+      "tags": ["past-simple", "error-correction"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 8,
+      "questionText": "Alexander Fleming ___ penicillin in the year 1928.",
+      "options": ["discovered", "discovers", "was discovering", "has discovered"],
+      "correctAnswer": "discovered",
+      "explanation": "Historical events that occurred at a specified date in the past require Past Simple.",
+      "banglaExplanation": "ঐতিহাসিক নির্দিষ্ট ঘটনার জন্য Past Simple ব্যবহৃত হয়।",
+      "tags": ["past-simple", "historical-fact"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 9,
+      "questionText": "He ___ up early, ___ breakfast, and rushed out the door.",
+      "options": ["woke / ate", "wake / eat", "woke / eaten", "was waking / ate"],
+      "correctAnswer": "woke / ate",
+      "explanation": "A chronological series of completed past actions uses Past Simple for all actions.",
+      "banglaExplanation": "পরপর ঘটে যাওয়া অতীত কাজের বর্ণনায় প্রতিটি verb-ই Past Simple হয়।",
+      "tags": ["past-simple", "narrative-sequence"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 10,
+      "questionText": "What is the past tense (V2) of the irregular verb 'choose'?",
+      "options": ["chose", "choosed", "chosen", "choosen"],
+      "correctAnswer": "chose",
+      "explanation": "The three forms are choose (V1) → chose (V2) → chosen (V3).",
+      "banglaExplanation": "Choose এর V2 রূপ হলো 'chose'।",
+      "tags": ["past-simple", "irregular-forms"]
+    }
+  ],
+  "past-continuous": [
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 1,
+      "questionText": "I ___ a mystery novel when the electricity suddenly failed.",
+      "options": ["was reading", "were reading", "read", "am reading"],
+      "correctAnswer": "was reading",
+      "explanation": "Subject 'I' takes 'was reading' for a past action that was interrupted.",
+      "banglaExplanation": "বিদ্যুৎ চলে যাওয়ার সময় কাজটি চলছিল, তাই 'was reading'।",
+      "tags": ["past-continuous", "interrupted-action"]
+    },
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 2,
+      "questionText": "The children ___ in the rain all yesterday afternoon.",
+      "options": ["were playing", "was playing", "played", "are playing"],
+      "correctAnswer": "were playing",
+      "explanation": "Plural subject 'children' takes 'were playing'.",
+      "banglaExplanation": "Children বহুবচন হওয়ায় 'were playing' হবে।",
+      "tags": ["past-continuous", "plural"]
+    },
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 3,
+      "questionText": "What ___ you doing at 10:00 PM last night?",
+      "options": ["were", "was", "did", "are"],
+      "correctAnswer": "were",
+      "explanation": "Use 'were' with subject 'you' in Past Continuous questions.",
+      "banglaExplanation": "You এর সাথে 'were' বসে।",
+      "tags": ["past-continuous", "question"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 4,
+      "questionText": "While Mother was preparing lunch, Father ___ the newspaper.",
+      "options": ["was reading", "read", "reads", "is reading"],
+      "correctAnswer": "was reading",
+      "explanation": "Two actions happening simultaneously in the past both use Past Continuous with 'while'.",
+      "banglaExplanation": "অতীতে দুটি কাজ একই সাথে চলছিল, তাই উভয়টিতেই Past Continuous।",
+      "tags": ["past-continuous", "parallel-actions"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 5,
+      "questionText": "She wasn't ___ attention when the instructor announced the date.",
+      "options": ["paying", "paid", "pay", "pays"],
+      "correctAnswer": "paying",
+      "explanation": "Wasn't + V-ing (paying).",
+      "banglaExplanation": "wasn't এর পর verb-এর ing রূপ বসে।",
+      "tags": ["past-continuous", "negative"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 6,
+      "questionText": "The doorbell rang while I ___ a shower.",
+      "options": ["was taking", "took", "am taking", "take"],
+      "correctAnswer": "was taking",
+      "explanation": "'While' introduces the continuous background action (was taking).",
+      "banglaExplanation": "While এর পর চলমান কাজ বোঝাতে 'was taking' বসে।",
+      "tags": ["past-continuous", "while-clause"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 7,
+      "questionText": "___ it raining when you left the office?",
+      "options": ["Was", "Were", "Did", "Had"],
+      "correctAnswer": "Was",
+      "explanation": "Subject 'it' takes 'Was' in past question form.",
+      "banglaExplanation": "'It' এর সাথে 'Was' দিয়ে প্রশ্ন শুরু হয়।",
+      "tags": ["past-continuous", "yes-no-question"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 8,
+      "questionText": "Select the sentence illustrating an interrupted action:",
+      "options": [
+        "I was sleeping peacefully when the earthquake struck.",
+        "I slept for eight hours last night.",
+        "I had slept before the earthquake struck.",
+        "I was sleeping while she was reading."
+      ],
+      "correctAnswer": "I was sleeping peacefully when the earthquake struck.",
+      "explanation": "The ongoing state (was sleeping) was interrupted by the sudden event (earthquake struck).",
+      "banglaExplanation": "ভূমিকম্পের আঘাতে চলমান ঘুম বাধাগ্রস্ত হয়েছিল।",
+      "tags": ["past-continuous", "interruption"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 9,
+      "questionText": "The birds ___ and the morning sun ___ through the trees.",
+      "options": [
+        "were singing / was shining",
+        "sang / shone",
+        "were singing / shone",
+        "was singing / was shining"
+      ],
+      "correctAnswer": "were singing / was shining",
+      "explanation": "Setting a narrative scene in the past requires Past Continuous for background descriptions.",
+      "banglaExplanation": "গল্পের আবহ তৈরিতে Past Continuous ব্যবহার করা হয়।",
+      "tags": ["past-continuous", "descriptive-setting"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 10,
+      "questionText": "Which conjunction typically pairs with the Past Simple clause that interrupts a Past Continuous action?",
+      "options": ["When", "While", "During", "Since"],
+      "correctAnswer": "When",
+      "explanation": "'When' usually introduces the short, interrupting Past Simple event (e.g., 'was driving WHEN the tire burst').",
+      "banglaExplanation": "বাধা সৃষ্টিকারী ছোট ঘটনার আগে সাধারণত 'When' বসে।",
+      "tags": ["past-continuous", "when-vs-while"]
+    }
+  ],
+  "past-perfect": [
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 1,
+      "questionText": "The express train ___ already left before we reached the platform.",
+      "options": ["had", "has", "have", "was"],
+      "correctAnswer": "had",
+      "explanation": "The train departed before the arrival, making departure the earlier past event (had left).",
+      "banglaExplanation": "আমরা পৌঁছানোর আগেই ট্রেনটি ছেড়ে গিয়েছিল, তাই 'had left'।",
+      "tags": ["past-perfect", "earlier-action"]
+    },
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 2,
+      "questionText": "She had ___ all her chores before her parents returned home.",
+      "options": ["finished", "finish", "finishing", "finishes"],
+      "correctAnswer": "finished",
+      "explanation": "Had + Past Participle (V3) 'finished'.",
+      "banglaExplanation": "had-এর পর verb-এর V3 রূপ 'finished' বসে।",
+      "tags": ["past-perfect", "v3-rule"]
+    },
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 3,
+      "questionText": "By the time the ambulance arrived, the patient ___ passed away.",
+      "options": ["had", "has", "was", "did"],
+      "correctAnswer": "had",
+      "explanation": "'By the time' + Past Simple indicates that the other event happened earlier (had passed away).",
+      "banglaExplanation": "অ্যাম্বুলেন্স আসার আগেই রোগী মারা গিয়েছিলেন, তাই 'had' হবে।",
+      "tags": ["past-perfect", "by-the-time"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 4,
+      "questionText": "I didn't recognize my childhood friend because he ___ so much.",
+      "options": ["had changed", "has changed", "changes", "was changing"],
+      "correctAnswer": "had changed",
+      "explanation": "The physical change occurred over the years before the moment of meeting.",
+      "banglaExplanation": "দেখা হওয়ার আগের সময়কালে পরিবর্তনটি ঘটেছিল, তাই 'had changed'।",
+      "tags": ["past-perfect", "prior-state"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 5,
+      "questionText": "After the doctor ___ the patient, he prescribed the medicine.",
+      "options": ["had examined", "examined", "has examined", "was examining"],
+      "correctAnswer": "had examined",
+      "explanation": "Rule: After + Past Perfect (earlier action), Past Simple (later action).",
+      "banglaExplanation": "After-এর পর পূর্ববর্তী কাজের জন্য Past Perfect বসে।",
+      "tags": ["past-perfect", "after-rule"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 6,
+      "questionText": "He had never ___ such an enormous waterfall before his trip to Sylhet.",
+      "options": ["seen", "saw", "see", "seeing"],
+      "correctAnswer": "seen",
+      "explanation": "Had never + V3 (seen).",
+      "banglaExplanation": "Had never এর সাথে see-এর V3 রূপ 'seen' বসে।",
+      "tags": ["past-perfect", "prior-experience"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 7,
+      "questionText": "___ you locked all the windows before leaving for the vacation?",
+      "options": ["Had", "Have", "Did", "Were"],
+      "correctAnswer": "Had",
+      "explanation": "Forming questions in Past Perfect: Had + subject (you) + V3 (locked)?",
+      "banglaExplanation": "প্রশ্ন করতে Had কর্তার পূর্বে বসে।",
+      "tags": ["past-perfect", "question"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 8,
+      "questionText": "Which sentence is correctly structured using the 'before' rule?",
+      "options": [
+        "The bell had rung before the students entered the classroom.",
+        "The bell rang before the students had entered the classroom.",
+        "The bell had rang before the students entered.",
+        "The bell has rung before the students entered."
+      ],
+      "correctAnswer": "The bell had rung before the students entered the classroom.",
+      "explanation": "Rule: Past Perfect + before + Past Simple. The bell ringing occurred first.",
+      "banglaExplanation": "Before-এর পূর্বে Past Perfect এবং পরে Past Simple বসে।",
+      "tags": ["past-perfect", "before-rule"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 9,
+      "questionText": "She could not board the airplane because she ___ her passport at home.",
+      "options": ["had left", "left", "has left", "was leaving"],
+      "correctAnswer": "had left",
+      "explanation": "Leaving the passport at home occurred before she attempted to board the flight.",
+      "banglaExplanation": "বিমানবন্দরে যাওয়ার আগেই পাসপোর্ট ফেলে এসেছিল, তাই 'had left'।",
+      "tags": ["past-perfect", "cause-and-effect"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 10,
+      "questionText": "In Third Conditional clauses ('If I ___ harder, I would have passed'), which tense is required?",
+      "options": ["Past Perfect", "Past Simple", "Present Perfect", "Past Continuous"],
+      "correctAnswer": "Past Perfect",
+      "explanation": "Third Conditional uses: If + Past Perfect, would have + V3.",
+      "banglaExplanation": "Third conditional বাক্যে If-clause এ Past Perfect বসে।",
+      "tags": ["past-perfect", "conditional"]
+    }
+  ],
+  "past-perfect-continuous": [
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 1,
+      "questionText": "They ___ waiting for over two hours before the flight finally departed.",
+      "options": ["had been", "have been", "were", "had"],
+      "correctAnswer": "had been",
+      "explanation": "Continuous ongoing action prior to a past departure: had been + waiting.",
+      "banglaExplanation": "ফ্লাইট ছাড়ার আগে দুই ঘণ্টা ধরে অপেক্ষা চলছিল, তাই 'had been'।",
+      "tags": ["past-perfect-continuous", "duration"]
+    },
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 2,
+      "questionText": "He was exhausted because he had been ___ the car through heavy traffic.",
+      "options": ["driving", "drive", "driven", "drove"],
+      "correctAnswer": "driving",
+      "explanation": "Had been + V-ing (driving).",
+      "banglaExplanation": "had been এর সাথে verb-এর ing রূপ 'driving' বসে।",
+      "tags": ["past-perfect-continuous", "verb-form"]
+    },
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 3,
+      "questionText": "She had been ___ at that school for twelve years before she retired.",
+      "options": ["teaching", "taught", "teach", "teaches"],
+      "correctAnswer": "teaching",
+      "explanation": "Continuous career duration up to past retirement requires 'teaching'.",
+      "banglaExplanation": "অবসরের পূর্বে ১২ বছর ধরে শিক্ষকতা চলছিল, তাই 'teaching'।",
+      "tags": ["past-perfect-continuous", "career"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 4,
+      "questionText": "The grass was soaking wet because it ___ all night.",
+      "options": ["had been raining", "has been raining", "was rained", "had rained"],
+      "correctAnswer": "had been raining",
+      "explanation": "Explains a visible past condition (wet grass) caused by a prolonged previous action.",
+      "banglaExplanation": "ঘাস ভেজা থাকার অতীত কারণ হিসেবে 'had been raining'।",
+      "tags": ["past-perfect-continuous", "past-cause"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 5,
+      "questionText": "How long ___ you been studying before you fell asleep at your desk?",
+      "options": ["had", "have", "were", "did"],
+      "correctAnswer": "had",
+      "explanation": "How long + had + subject (you) + been + V-ing?",
+      "banglaExplanation": "অতীতে কতক্ষণ ধরে কাজটি চলছিল তা জানতে 'had' বসে।",
+      "tags": ["past-perfect-continuous", "how-long-question"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 6,
+      "questionText": "He had not ___ feeling well for weeks before he consulted a physician.",
+      "options": ["been", "being", "be", "was"],
+      "correctAnswer": "been",
+      "explanation": "Had not + been + feeling.",
+      "banglaExplanation": "Had not এর পর 'been' বসে।",
+      "tags": ["past-perfect-continuous", "negative"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 7,
+      "questionText": "We had been planning the international tour ___ months before it was cancelled.",
+      "options": ["for", "since", "in", "during"],
+      "correctAnswer": "for",
+      "explanation": "Use 'for' with the duration 'months'.",
+      "banglaExplanation": "সময়ের ব্যাপ্তি বোঝাতে 'for' ব্যবহৃত হয়।",
+      "tags": ["past-perfect-continuous", "for-duration"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 8,
+      "questionText": "Her eyes were puffy because she ___ intensely.",
+      "options": ["had been crying", "has been crying", "cried", "was crying"],
+      "correctAnswer": "had been crying",
+      "explanation": "Past evidence (puffy eyes) resulting from an activity in progress prior to that observation.",
+      "banglaExplanation": "অতীত প্রমাণের পেছনের দীর্ঘ ক্রিয়াকে তুলে ধরতে 'had been crying'।",
+      "tags": ["past-perfect-continuous", "evidence"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 9,
+      "questionText": "What distinguishes Past Perfect Continuous from Past Perfect Simple?",
+      "options": [
+        "Continuous emphasizes the ongoing duration of the action, while Simple emphasizes completion.",
+        "Simple is for future actions, Continuous is for past.",
+        "Continuous never uses 'had'.",
+        "There is no grammatical distinction."
+      ],
+      "correctAnswer": "Continuous emphasizes the ongoing duration of the action, while Simple emphasizes completion.",
+      "explanation": "Continuous stresses the duration/process, whereas Simple focuses on the fact of completion.",
+      "banglaExplanation": "Continuous কাজের ধারাবাহিকতা বা ব্যাপ্তি বোঝায়, আর Simple কাজের পরিসমাপ্তি বোঝায়।",
+      "tags": ["past-perfect-continuous", "conceptual-difference"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 10,
+      "questionText": "Before the factory closed down, the engineers ___ on a green energy prototype.",
+      "options": [
+        "had been collaborating",
+        "were collaborated",
+        "have been collaborating",
+        "collaborate"
+      ],
+      "correctAnswer": "had been collaborating",
+      "explanation": "An ongoing project prior to the past closure of the factory requires 'had been collaborating'.",
+      "banglaExplanation": "কারখানা বন্ধের আগে কাজ চলছিল, তাই 'had been collaborating'।",
+      "tags": ["past-perfect-continuous", "complex-context"]
+    }
+  ],
+  "future-simple": [
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 1,
+      "questionText": "I ___ you as soon as I arrive at the hotel.",
+      "options": ["will call", "called", "am calling", "have called"],
+      "correctAnswer": "will call",
+      "explanation": "Promise/decision regarding a future event uses 'will' + base verb (call).",
+      "banglaExplanation": "ভবিষ্যতে ফোন করব প্রতিশ্রুতি বোঝাতে 'will call' বসে।",
+      "tags": ["future-simple", "promise"]
+    },
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 2,
+      "questionText": "The meteorologist announced that it ___ tomorrow afternoon.",
+      "options": ["will rain", "rained", "rains", "is raining"],
+      "correctAnswer": "will rain",
+      "explanation": "A prediction about tomorrow uses Future Simple 'will rain'.",
+      "banglaExplanation": "আগামীকালের পূর্বাভাসে 'will rain' ব্যবহৃত হয়।",
+      "tags": ["future-simple", "prediction"]
+    },
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 3,
+      "questionText": "She ___ (not / attend) tomorrow's conference because of illness.",
+      "options": ["won't attend", "doesn't attend", "hasn't attended", "isn't attending"],
+      "correctAnswer": "won't attend",
+      "explanation": "Negative future: will not (won't) + base verb (attend).",
+      "banglaExplanation": "ভবিষ্যতে না-সূচক বোঝাতে 'won't attend' বসে।",
+      "tags": ["future-simple", "negative"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 4,
+      "questionText": "A: 'Someone is knocking at the front door.' B: 'Hold on, I ___ it!'",
+      "options": ["will open", "open", "opened", "am opening"],
+      "correctAnswer": "will open",
+      "explanation": "Spontaneous decisions made right at the moment of speaking always use 'will'.",
+      "banglaExplanation": "মুহূর্তের তাৎক্ষণিক সিদ্ধান্তের ক্ষেত্রে 'will open' বসে।",
+      "tags": ["future-simple", "spontaneous-decision"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 5,
+      "questionText": "___ you please help me carry these heavy parcels?",
+      "options": ["Will", "Do", "Are", "Have"],
+      "correctAnswer": "Will",
+      "explanation": "'Will you...' is standard for making polite requests and offers.",
+      "banglaExplanation": "ভদ্রভাবে অনুরোধ করতে 'Will you' দিয়ে প্রশ্ন শুরু হয়।",
+      "tags": ["future-simple", "polite-request"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 6,
+      "questionText": "Don't worry about the secret; I ___ tell anyone.",
+      "options": ["will not", "do not", "am not", "did not"],
+      "correctAnswer": "will not",
+      "explanation": "Assurance/promise about the future: will not (won't).",
+      "banglaExplanation": "ভবিষ্যতে কাউকে না বলার প্রতিশ্রুতিতে 'will not' বসে।",
+      "tags": ["future-simple", "assurance"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 7,
+      "questionText": "What ___ you do if the flight gets delayed tomorrow?",
+      "options": ["will", "do", "did", "are"],
+      "correctAnswer": "will",
+      "explanation": "First conditional result clause uses 'will' + base verb.",
+      "banglaExplanation": "First conditional বাক্যে 'will' বসে।",
+      "tags": ["future-simple", "first-conditional"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 8,
+      "questionText": "Which statement contrasts 'will' vs 'be going to' accurately?",
+      "options": [
+        "'Will' is for spontaneous decisions; 'going to' is for prior planned intentions.",
+        "'Will' is only for past actions; 'going to' is for future.",
+        "'Will' is informal; 'going to' is formal only.",
+        "There is no difference in modern English."
+      ],
+      "correctAnswer": "'Will' is for spontaneous decisions; 'going to' is for prior planned intentions.",
+      "explanation": "Use 'will' for instant decisions and 'be going to' for pre-existing plans.",
+      "banglaExplanation": "তাৎক্ষণিক সিদ্ধান্তে 'will' এবং আগের পরিকল্পনায় 'going to' বসে।",
+      "tags": ["future-simple", "will-vs-going-to"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 9,
+      "questionText": "In the sentence 'The sun will rise at 6:02 AM tomorrow', 'will' represents:",
+      "options": [
+        "An inevitable future scientific fact.",
+        "A personal promise.",
+        "A spontaneous guess.",
+        "A command."
+      ],
+      "correctAnswer": "An inevitable future scientific fact.",
+      "explanation": "Future Simple expresses natural laws and inevitable future facts.",
+      "banglaExplanation": "প্রাকৃতিক ও নিশ্চিত ভবিষ্যতের সত্য প্রকাশে 'will' ব্যবহৃত হয়।",
+      "tags": ["future-simple", "scientific-fact"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 10,
+      "questionText": "What form of the verb follows modal 'will'?",
+      "options": ["Bare infinitive (base form V1)", "Past participle (V3)", "Gerund (-ing)", "Infinitive with to"],
+      "correctAnswer": "Bare infinitive (base form V1)",
+      "explanation": "Modal auxiliary 'will' is always followed by the bare infinitive (base verb without to).",
+      "banglaExplanation": "Will-এর পর সর্বদা verb-এর মূল রূপ (V1) বসে।",
+      "tags": ["future-simple", "grammatical-rule"]
+    }
+  ],
+  "future-continuous": [
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 1,
+      "questionText": "At 10:00 AM tomorrow, I ___ an international exam in the auditorium.",
+      "options": ["will be taking", "will take", "take", "am taking"],
+      "correctAnswer": "will be taking",
+      "explanation": "At a specific future moment (10 AM tomorrow), the action will be ongoing (will be taking).",
+      "banglaExplanation": "আগামীকাল নির্দিষ্ট সময়ে কাজটি চলতে থাকবে, তাই 'will be taking'।",
+      "tags": ["future-continuous", "specific-time"]
+    },
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 2,
+      "questionText": "This time next Friday, we ___ along the coast in Cox's Bazar.",
+      "options": ["will be traveling", "will travel", "travel", "are traveled"],
+      "correctAnswer": "will be traveling",
+      "explanation": "'This time next Friday' points to an activity in progress in the future (will be traveling).",
+      "banglaExplanation": "আগামী সপ্তাহের এই সময়ে চলতে থাকবে বোঝালে 'will be traveling'।",
+      "tags": ["future-continuous", "future-moment"]
+    },
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 3,
+      "questionText": "She will ___ working at her desk until late tonight.",
+      "options": ["be", "been", "being", "is"],
+      "correctAnswer": "be",
+      "explanation": "Future Continuous structure is: will + be + V-ing.",
+      "banglaExplanation": "will-এর পর 'be' বসে continuous গঠন করে।",
+      "tags": ["future-continuous", "structure"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 4,
+      "questionText": "Please don't phone me at 2:00 PM; I ___ an important client meeting.",
+      "options": ["will be attending", "will attend", "attend", "attended"],
+      "correctAnswer": "will be attending",
+      "explanation": "Warning someone against calling because an action will be in progress at that time.",
+      "banglaExplanation": "ওই সময়ে মিটিং চলমান থাকবে, তাই 'will be attending'।",
+      "tags": ["future-continuous", "ongoing-interruption"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 5,
+      "questionText": "___ you ___ using the office scanner this afternoon?",
+      "options": ["Will / be", "Do / be", "Are / being", "Have / been"],
+      "correctAnswer": "Will / be",
+      "explanation": "Polite question about future plans: Will + you + be + using?",
+      "banglaExplanation": "ভদ্রভাবে কারও পরিকল্পনা জানতে 'Will you be using' বসে।",
+      "tags": ["future-continuous", "polite-inquiry"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 6,
+      "questionText": "They won't ___ holding any public rallies next week.",
+      "options": ["be", "been", "being", "are"],
+      "correctAnswer": "be",
+      "explanation": "Won't + be + V-ing (holding).",
+      "banglaExplanation": "Won't এর পর 'be' বসে।",
+      "tags": ["future-continuous", "negative"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 7,
+      "questionText": "What will you be ___ at this exact time tomorrow?",
+      "options": ["doing", "do", "did", "done"],
+      "correctAnswer": "doing",
+      "explanation": "Will be + V-ing (doing).",
+      "banglaExplanation": "Will be এর পর verb-এর সাথে ing যোগ হয়ে 'doing' হয়।",
+      "tags": ["future-continuous", "wh-question"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 8,
+      "questionText": "Why is Future Continuous preferred in 'Will you be driving to the supermarket today?'",
+      "options": [
+        "It asks politely without putting pressure or demanding a favor.",
+        "It commands the listener to drive.",
+        "It refers to past events.",
+        "It indicates that driving is mandatory."
+      ],
+      "correctAnswer": "It asks politely without putting pressure or demanding a favor.",
+      "explanation": "Future Continuous sounds softer and more polite than asking directly 'Will you drive?'.",
+      "banglaExplanation": "কাউকে চাপ না দিয়ে অত্যন্ত বিনয়ের সাথে জানতে চাইতে Future Continuous ব্যবহৃত হয়।",
+      "tags": ["future-continuous", "pragmatics"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 9,
+      "questionText": "The security personnel ___ the perimeter continuously throughout the summit.",
+      "options": ["will be monitoring", "will monitor", "is monitored", "was monitoring"],
+      "correctAnswer": "will be monitoring",
+      "explanation": "Describes an extended ongoing continuous duty in the future.",
+      "banglaExplanation": "সম্মেলন চলাকালীন একটানা নজরদারি চলতে থাকবে, তাই 'will be monitoring'।",
+      "tags": ["future-continuous", "extended-action"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 10,
+      "questionText": "Identify the correct interrogative structure for Future Continuous:",
+      "options": [
+        "Will + Subject + be + V-ing?",
+        "Will + be + Subject + V-ing?",
+        "Subject + will + be + V-ing?",
+        "Do + Subject + will be + V-ing?"
+      ],
+      "correctAnswer": "Will + Subject + be + V-ing?",
+      "explanation": "Inversion puts 'Will' first, then subject, followed by 'be + V-ing'.",
+      "banglaExplanation": "Will + Subject + be + V-ing হলো সঠিক প্রশ্ন কাঠামো।",
+      "tags": ["future-continuous", "syntax"]
+    }
+  ],
+  "future-perfect": [
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 1,
+      "questionText": "By December, I ___ completed all requirements for my graduation.",
+      "options": ["will have", "will", "have", "had"],
+      "correctAnswer": "will have",
+      "explanation": "Action completed before a future deadline (December): will have + V3 (completed).",
+      "banglaExplanation": "ডিসেম্বরের মধ্যে গ্র্যাজুয়েশন সম্পন্ন হয়ে থাকবে, তাই 'will have'।",
+      "tags": ["future-perfect", "future-deadline"]
+    },
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 2,
+      "questionText": "She will have ___ the official report before the clock strikes five.",
+      "options": ["submitted", "submit", "submits", "submitting"],
+      "correctAnswer": "submitted",
+      "explanation": "Will have + Past Participle (V3) 'submitted'.",
+      "banglaExplanation": "will have এর পর verb-এর V3 রূপ 'submitted' বসে।",
+      "tags": ["future-perfect", "v3-form"]
+    },
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 3,
+      "questionText": "By the time you wake up, the morning flight ___ landed.",
+      "options": ["will have", "has", "had", "will"],
+      "correctAnswer": "will have",
+      "explanation": "Action completed before another future event: will have + landed.",
+      "banglaExplanation": "তোমার ঘুম ভাঙার আগেই ফ্লাইট অবতরণ করে থাকবে, তাই 'will have'।",
+      "tags": ["future-perfect", "prior-future-action"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 4,
+      "questionText": "The bridge construction team ___ the flyover by next October.",
+      "options": ["will have finished", "will finish", "finish", "have finished"],
+      "correctAnswer": "will have finished",
+      "explanation": "'By next October' specifies the future completion boundary.",
+      "banglaExplanation": "আগামী অক্টোবরের মধ্যে কাজ সম্পন্ন হয়ে থাকবে বোঝাতে 'will have finished'।",
+      "tags": ["future-perfect", "completion-benchmark"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 5,
+      "questionText": "He won't ___ saved enough funds by the time the auction begins.",
+      "options": ["have", "has", "had", "having"],
+      "correctAnswer": "have",
+      "explanation": "In Future Perfect, 'have' is never replaced by 'has', regardless of the subject.",
+      "banglaExplanation": "Future Perfect এ 'will have' সর্বদা অপরিবর্তিত থাকে, 'has' হয় না।",
+      "tags": ["future-perfect", "have-invariance"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 6,
+      "questionText": "___ you have finished the audit before the inspectors arrive?",
+      "options": ["Will", "Have", "Do", "Did"],
+      "correctAnswer": "Will",
+      "explanation": "Future Perfect questions start with 'Will' + subject + have + V3.",
+      "banglaExplanation": "প্রশ্ন তৈরিতে Will কর্তার আগে বসে।",
+      "tags": ["future-perfect", "question"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 7,
+      "questionText": "By the year 2035, solar energy ___ traditional fuels in many regions.",
+      "options": ["will have replaced", "will replace", "replace", "replaced"],
+      "correctAnswer": "will have replaced",
+      "explanation": "Expresses completion by a target date in the distant future.",
+      "banglaExplanation": "২০৩৫ সালের মধ্যে প্রতিস্থাপিত হয়ে থাকবে বোঝাতে 'will have replaced'।",
+      "tags": ["future-perfect", "future-projection"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 8,
+      "questionText": "In the clause 'By the time he ___ (arrive), we will have prepared dinner', which verb form is correct?",
+      "options": ["arrives", "will arrive", "arrived", "will have arrived"],
+      "correctAnswer": "arrives",
+      "explanation": "Time clauses introduced by 'by the time' use Present Simple (arrives), NOT future tense.",
+      "banglaExplanation": "'By the time' যুক্ত time-clause এ Present Simple 'arrives' বসে।",
+      "tags": ["future-perfect", "time-clause-rule"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 9,
+      "questionText": "Which sentence correctly showcases the Future Perfect tense?",
+      "options": [
+        "By 9:00 PM, Mom will have prepared a delicious feast.",
+        "By 9:00 PM, Mom will prepare a delicious feast.",
+        "By 9:00 PM, Mom has prepared a delicious feast.",
+        "Mom prepared a delicious feast by 9:00 PM."
+      ],
+      "correctAnswer": "By 9:00 PM, Mom will have prepared a delicious feast.",
+      "explanation": "'By 9:00 PM' combined with 'will have prepared' is the quintessential Future Perfect formula.",
+      "banglaExplanation": "রাত ৯টার মধ্যে খাবার তৈরি হয়ে থাকবে বোঝাতে 'will have prepared' সঠিক।",
+      "tags": ["future-perfect", "correct-usage"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 10,
+      "questionText": "By the end of this semester, we ___ all twelve English tenses in depth.",
+      "options": ["will have mastered", "will master", "mastered", "are mastering"],
+      "correctAnswer": "will have mastered",
+      "explanation": "Completion by an academic deadline requires 'will have mastered'.",
+      "banglaExplanation": "সেমিস্টার শেষের মধ্যে আয়ত্ত সম্পন্ন হয়ে থাকবে বোঝাতে 'will have mastered'।",
+      "tags": ["future-perfect", "academic-milestone"]
+    }
+  ],
+  "future-perfect-continuous": [
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 1,
+      "questionText": "By next November, I will have been ___ at this college for twenty years.",
+      "options": ["teaching", "teach", "taught", "teaches"],
+      "correctAnswer": "teaching",
+      "explanation": "Will have been + V-ing (teaching) emphasizes duration up to a future date.",
+      "banglaExplanation": "ভবিষ্যতে ২০ বছর পূর্ণ হয়ে চলবে বোঝাতে 'teaching' বসে।",
+      "tags": ["future-perfect-continuous", "milestone"]
+    },
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 2,
+      "questionText": "By midnight, the programmer ___ been coding for ten straight hours.",
+      "options": ["will have", "has", "had", "will"],
+      "correctAnswer": "will have",
+      "explanation": "Future Perfect Continuous requires 'will have' + been + V-ing.",
+      "banglaExplanation": "Will have + been + coding কাঠামো মেনে 'will have' বসে।",
+      "tags": ["future-perfect-continuous", "auxiliary"]
+    },
+    {
+      "type": "MCQ", "difficulty": "easy", "order": 3,
+      "questionText": "In 2028, they will have been ___ married for three decades.",
+      "options": ["living", "lived", "live", "lives"],
+      "correctAnswer": "living",
+      "explanation": "Will have been + living.",
+      "banglaExplanation": "will have been এর পর verb-ing 'living' বসে।",
+      "tags": ["future-perfect-continuous", "anniversary"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 4,
+      "questionText": "When he crosses the finish line, he ___ running for over three hours.",
+      "options": ["will have been", "will be", "has been", "was"],
+      "correctAnswer": "will have been",
+      "explanation": "Emphasizes the continuous duration of running leading up to the finish line.",
+      "banglaExplanation": "দৌড় শেষ করার মুহূর্তে ৩ ঘণ্টার দৌড় চলমান থাকবে, তাই 'will have been'।",
+      "tags": ["future-perfect-continuous", "marathon"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 5,
+      "questionText": "How many months will she have ___ working remotely by the end of this year?",
+      "options": ["been", "be", "being", "was"],
+      "correctAnswer": "been",
+      "explanation": "Will she have + been + working.",
+      "banglaExplanation": "have এর পর 'been' বসে।",
+      "tags": ["future-perfect-continuous", "question"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 6,
+      "questionText": "By daybreak, the medical team will have been ___ on the critical victims all night.",
+      "options": ["operating", "operate", "operated", "operates"],
+      "correctAnswer": "operating",
+      "explanation": "Continuous nighttime emergency medical effort: will have been + operating.",
+      "banglaExplanation": "সারারাত ধরে অপারেশন চলতে থাকবে, তাই 'operating'।",
+      "tags": ["future-perfect-continuous", "duty"]
+    },
+    {
+      "type": "MCQ", "difficulty": "medium", "order": 7,
+      "questionText": "He won't have been training ___ enough to qualify for the Olympic squad.",
+      "options": ["long", "since", "until", "during"],
+      "correctAnswer": "long",
+      "explanation": "In this context, 'long enough' indicates duration of training.",
+      "banglaExplanation": "পর্যাপ্ত সময় ধরে প্রশিক্ষণ বোঝাচ্ছে, তাই 'long enough'।",
+      "tags": ["future-perfect-continuous", "negative-duration"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 8,
+      "questionText": "Which two prepositional phrases typically characterize Future Perfect Continuous?",
+      "options": [
+        "A duration phrase with 'for' and a future reference milestone with 'by'.",
+        "A past phrase with 'ago' and a present phrase with 'now'.",
+        "Phrases with 'yesterday' and 'tomorrow'.",
+        "Phrases with 'during' and 'while'."
+      ],
+      "correctAnswer": "A duration phrase with 'for' and a future reference milestone with 'by'.",
+      "explanation": "Future Perfect Continuous typically couples duration ('for X hours/years') with a future milestone ('by next year').",
+      "banglaExplanation": "সময়কাল বোঝাতে 'for' এবং ভবিষ্যতের সময়সীমা বোঝাতে 'by' এর সমন্বয় ঘটে।",
+      "tags": ["future-perfect-continuous", "preposition-pair"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 9,
+      "questionText": "By 2030, Professor Rahman will have been researching green energy ___ twenty-five years.",
+      "options": ["for", "since", "in", "by"],
+      "correctAnswer": "for",
+      "explanation": "'Twenty-five years' is a duration, requiring 'for'.",
+      "banglaExplanation": "২৫ বছরের সময়কালের পূর্বে 'for' বসে।",
+      "tags": ["future-perfect-continuous", "duration"]
+    },
+    {
+      "type": "MCQ", "difficulty": "hard", "order": 10,
+      "questionText": "Choose the correct negative formation for Future Perfect Continuous:",
+      "options": [
+        "Subject + will not have been + V-ing",
+        "Subject + will have not been + V-ing",
+        "Subject + will not have being + V-ing",
+        "Subject + won't been have + V-ing"
+      ],
+      "correctAnswer": "Subject + will not have been + V-ing",
+      "explanation": "The negative particle 'not' is placed immediately after the first auxiliary 'will' (will not / won't).",
+      "banglaExplanation": "প্রথম সাহায্যকারী verb 'will' এর পরে 'not' বসে (will not have been + V-ing)।",
+      "tags": ["future-perfect-continuous", "syntax-rule"]
+    }
+  ]
+}

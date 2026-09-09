@@ -1,0 +1,847 @@
+{
+  "present-simple": {
+    "title": "Understanding Present Simple",
+    "description": "Master the foundation of daily communication, routines, habits, and universal truths.",
+    "rules": [
+      {
+        "title": "Affirmative Sentences (হ্যাঁ-সূচক বাক্য)",
+        "structure": "Subject + V1 (base form / -s / -es) + Object",
+        "explanation": "Use the base verb (V1). If the subject is third-person singular (He, She, It, or a singular noun), add -s or -es to the verb.",
+        "banglaExplanation": "কর্তা Third Person Singular (He, She, It ইত্যাদি) হলে verb-এর শেষে s বা es যোগ করতে হয়। বাকি সব ক্ষেত্রে verb-এর মূল রূপ বসে।",
+        "examples": [
+          "I play football every weekend.",
+          "She speaks fluent English.",
+          "The sun rises in the east.",
+          "They live in Dhaka."
+        ]
+      },
+      {
+        "title": "Negative Sentences (না-সূচক বাক্য)",
+        "structure": "Subject + do not / does not (don't / doesn't) + V1 + Object",
+        "explanation": "Use 'do not' (don't) for I/We/You/They. Use 'does not' (doesn't) for He/She/It. Notice that the main verb is always in its base form (V1).",
+        "banglaExplanation": "I, We, You, They-এর জন্য do not এবং He, She, It-এর জন্য does not বসে। এরপর verb-এর মূল রূপ (V1) বসে।",
+        "examples": [
+          "I don't like bitter gourd.",
+          "She doesn't watch television on weekdays.",
+          "They don't work on Sundays."
+        ]
+      },
+      {
+        "title": "Question Sentences (প্রশ্নবোধক বাক্য)",
+        "structure": "Do / Does + Subject + V1 + Object?",
+        "explanation": "Start the question with 'Do' (for I/We/You/They) or 'Does' (for He/She/It), followed by the subject and base verb.",
+        "banglaExplanation": "প্রশ্ন করতে বাক্যের শুরুতে Do বা Does বসান। Third Person Singular-এর জন্য Does বসে।",
+        "examples": [
+          "Do you drink coffee in the morning?",
+          "Does he know the answer?",
+          "Do they study together?"
+        ]
+      },
+      {
+        "title": "Wh- Questions (Wh- প্রশ্নবোধক বাক্য)",
+        "structure": "Wh-word + do / does + Subject + V1 + Object?",
+        "explanation": "Place the question word (What, Where, When, Why, How) before do/does.",
+        "banglaExplanation": "Wh-word দিয়ে প্রশ্ন করার সময় Wh-শব্দটি do/does এর আগে বসে।",
+        "examples": [
+          "Where do you live?",
+          "What does she want?",
+          "When do they arrive?"
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Add -s or -es only for third-person singular subjects (He, She, It, Rahim) in affirmative sentences.",
+      "Verbs ending in -ch, -sh, -ss, -x, -zz, or -o take '-es' (e.g., watch → watches, go → goes).",
+      "When 'does' or 'doesn't' is used, the main verb NEVER takes an -s or -es (e.g., 'Does she speak?', NOT 'Does she speaks?').",
+      "Stative verbs (know, believe, love, hate, understand, belong) are normally used in Present Simple, not Continuous."
+    ],
+    "whenToUse": [
+      "Habits and regular routines: 'I wake up at 6:30 AM.'",
+      "Universal facts and scientific truths: 'Water boils at 100 degrees Celsius.'",
+      "Permanent states: 'My uncle lives in London.'",
+      "Official timetables and schedules: 'The morning train departs at 7:00 AM.'"
+    ],
+    "examples": [
+      { "englishText": "I go to school every day.", "banglaText": "আমি প্রতিদিন স্কুলে যাই।", "category": "Habits" },
+      { "englishText": "She reads books in the evening.", "banglaText": "সে সন্ধ্যায় বই পড়ে।", "category": "Habits" },
+      { "englishText": "Water boils at 100 degrees Celsius.", "banglaText": "পানি ১০০ ডিগ্রি সেলসিয়াসে ফুটে।", "category": "Universal Truth" },
+      { "englishText": "The sun rises in the east.", "banglaText": "সূর্য পূর্ব দিকে ওঠে।", "category": "Universal Truth" },
+      { "englishText": "He works at a hospital.", "banglaText": "সে হাসপাতালে কাজ করে।", "category": "Permanent State" },
+      { "englishText": "She doesn't like cold weather.", "banglaText": "সে ঠান্ডা আবহাওয়া পছন্দ করে না।", "category": "Negative" },
+      { "englishText": "Do you speak English?", "banglaText": "তুমি কি ইংরেজি বলো?", "category": "Question" },
+      { "englishText": "Where does he live?", "banglaText": "সে কোথায় থাকে?", "category": "Wh- Question" }
+    ]
+  },
+  "present-continuous": {
+    "title": "Understanding Present Continuous",
+    "description": "Express actions occurring right now, temporary situations, and ongoing trends.",
+    "rules": [
+      {
+        "title": "Affirmative Sentences (হ্যাঁ-সূচক বাক্য)",
+        "structure": "Subject + am / is / are + V-ing + Object",
+        "explanation": "Use 'am' with I; 'is' with He/She/It and singular nouns; 'are' with We/You/They and plural nouns. Add -ing to the base verb.",
+        "banglaExplanation": "বর্তমানকালে কোনো কাজ চলছে বোঝালে am/is/are + verb-এর সাথে ing যোগ করতে হয়।",
+        "examples": [
+          "I am reading a grammar book.",
+          "She is preparing dinner in the kitchen.",
+          "They are playing badminton in the park."
+        ]
+      },
+      {
+        "title": "Negative Sentences (না-সূচক বাক্য)",
+        "structure": "Subject + am / is / are + not + V-ing + Object",
+        "explanation": "Place 'not' right after the auxiliary verb (am not / isn't / aren't).",
+        "banglaExplanation": "না-সূচক বাক্যে am/is/are-এর ঠিক পর not বসে।",
+        "examples": [
+          "I am not watching TV right now.",
+          "He is not (isn't) listening to the teacher.",
+          "We are not (aren't) going anywhere today."
+        ]
+      },
+      {
+        "title": "Question Sentences (প্রশ্নবোধক বাক্য)",
+        "structure": "Am / Is / Are + Subject + V-ing + Object?",
+        "explanation": "Place the auxiliary verb (Am/Is/Are) at the beginning before the subject.",
+        "banglaExplanation": "প্রশ্ন করতে am/is/are-কে কর্তার আগে নিয়ে আসতে হয়।",
+        "examples": [
+          "Are you studying for the exam?",
+          "Is she cooking lunch right now?",
+          "Are they coming to the party?"
+        ]
+      },
+      {
+        "title": "Wh- Questions (Wh- প্রশ্নবোধক বাক্য)",
+        "structure": "Wh-word + am / is / are + Subject + V-ing?",
+        "explanation": "Place the Wh-question word before the auxiliary verb.",
+        "banglaExplanation": "Wh-word দিয়ে প্রশ্ন গঠনের সময় Wh-শব্দটি am/is/are এর আগে বসে।",
+        "examples": [
+          "What are you doing here?",
+          "Why is he crying?",
+          "Where are they going?"
+        ]
+      }
+    ],
+    "keyPoints": [
+      "I takes 'am', He/She/It takes 'is', We/You/They take 'are'.",
+      "Spelling rules for -ing: if a verb ends in -e, drop the e (write → writing); double the consonant for short CVC verbs (run → running, sit → sitting).",
+      "Non-continuous (stative) verbs like 'know', 'like', 'want', 'see', 'understand' are rarely used in continuous form.",
+      "Time expressions: right now, at the moment, currently, nowadays, today."
+    ],
+    "whenToUse": [
+      "Actions happening right at the moment of speaking: 'Please be quiet, the baby is sleeping.'",
+      "Temporary situations occurring around the present: 'I am staying with my brother this week.'",
+      "Definite fixed plans for the near future: 'We are meeting the principal tomorrow morning.'",
+      "Changing or developing situations: 'The weather is getting colder every day.'"
+    ],
+    "examples": [
+      { "englishText": "I am writing an essay now.", "banglaText": "আমি এখন একটি প্রবন্ধ লিখছি।", "category": "Action Now" },
+      { "englishText": "The baby is sleeping peacefully.", "banglaText": "শিশুটি শান্তভাবে ঘুমাচ্ছে।", "category": "Action Now" },
+      { "englishText": "They are building a new bridge over the river.", "banglaText": "তারা নদীর উপর একটি নতুন সেতু নির্মাণ করছে।", "category": "Temporary Action" },
+      { "englishText": "He is not attending classes this semester.", "banglaText": "সে এই সেমিস্টারে ক্লাসে উপস্থিত হচ্ছে না।", "category": "Negative" },
+      { "englishText": "Are you preparing for the test?", "banglaText": "তুমি কি পরীক্ষার জন্য প্রস্তুতি নিচ্ছ?", "category": "Question" },
+      { "englishText": "Why are you laughing so loudly?", "banglaText": "তুমি এত জোরে হাসছ কেন?", "category": "Wh- Question" },
+      { "englishText": "We are flying to London tomorrow.", "banglaText": "আমরা কাল লন্ডনে যাচ্ছি।", "category": "Future Plan" },
+      { "englishText": "Prices are increasing rapidly.", "banglaText": "দ্রুত দাম বৃদ্ধি পাচ্ছে।", "category": "Trend" }
+    ]
+  },
+  "present-perfect": {
+    "title": "Understanding Present Perfect",
+    "description": "Connect past actions to the present moment, express life experiences and recent results.",
+    "rules": [
+      {
+        "title": "Affirmative Sentences (হ্যাঁ-সূচক বাক্য)",
+        "structure": "Subject + have / has + V3 (Past Participle) + Object",
+        "explanation": "Use 'has' with He/She/It and singular nouns. Use 'have' with I/We/You/They and plural nouns. The verb must always be in past participle (V3) form.",
+        "banglaExplanation": "অতীতের কোনো কাজ শেষ হয়েছে কিন্তু তার ফলাফল এখনও বিদ্যমান থাকলে have/has + V3 বসে।",
+        "examples": [
+          "I have finished my homework.",
+          "She has visited Paris twice.",
+          "They have won the championship."
+        ]
+      },
+      {
+        "title": "Negative Sentences (না-সূচক বাক্য)",
+        "structure": "Subject + have / has + not (haven't / hasn't) + V3 + Object",
+        "explanation": "Add 'not' after have/has. Use 'haven't' or 'hasn't' in casual speech.",
+        "banglaExplanation": "না-সূচক বাক্যে have/has এর পরে not বসে।",
+        "examples": [
+          "I haven't seen that movie yet.",
+          "He hasn't called me today.",
+          "We haven't received the package."
+        ]
+      },
+      {
+        "title": "Question Sentences (প্রশ্নবোধক বাক্য)",
+        "structure": "Have / Has + Subject + V3 + Object?",
+        "explanation": "Invert have/has with the subject to form questions.",
+        "banglaExplanation": "প্রশ্নবোধক বাক্যে Have বা Has কর্তার আগে বসে।",
+        "examples": [
+          "Have you ever tasted sushi?",
+          "Has she completed her project?",
+          "Have they arrived yet?"
+        ]
+      },
+      {
+        "title": "Wh- Questions (Wh- প্রশ্নবোধক বাক্য)",
+        "structure": "Wh-word + have / has + Subject + V3?",
+        "explanation": "Place the Wh-question word at the beginning before have/has.",
+        "banglaExplanation": "Wh-শব্দটি have/has এর পূর্বে বসে প্রশ্ন গঠন করে।",
+        "examples": [
+          "Where have you been all day?",
+          "What has he done to his hair?",
+          "How many books have you read this month?"
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Use 'has' for He, She, It, and singular subjects; 'have' for I, You, We, They, and plurals.",
+      "Always use the 3rd form (Past Participle) of the verb: see → seen, write → written, go → gone.",
+      "Never use specific past time markers (like yesterday, last year, in 1999) with Present Perfect; use Past Simple instead.",
+      "Common signal words: already, yet, just, ever, never, recently, so far, since, for."
+    ],
+    "whenToUse": [
+      "Actions completed recently with an obvious present outcome: 'I have lost my key (so I cannot enter now).'",
+      "Life experiences without stating a specific time: 'Have you ever visited Cox\\'s Bazar?'",
+      "Unfinished actions that started in the past and continue into the present: 'She has lived here for ten years.'",
+      "Actions occurring multiple times up to the present: 'We have watched this movie three times.'"
+    ],
+    "examples": [
+      { "englishText": "I have completed the assignment.", "banglaText": "আমি অ্যাসাইনমেন্টটি শেষ করেছি।", "category": "Recent Result" },
+      { "englishText": "She has lived in Chittagong since 2015.", "banglaText": "সে ২০১৫ সাল থেকে চট্টগ্রামে বাস করছে।", "category": "Ongoing State" },
+      { "englishText": "They have already left the office.", "banglaText": "তারা ইতিমধ্যে অফিস ত্যাগ করেছে।", "category": "Recent Action" },
+      { "englishText": "Have you ever seen a tiger?", "banglaText": "তুমি কি কখনো বাঘ দেখেছো?", "category": "Experience" },
+      { "englishText": "He has not received the email yet.", "banglaText": "সে এখনও ইমেইলটি পায়নি।", "category": "Negative" },
+      { "englishText": "Scientists have discovered a new planet.", "banglaText": "বিজ্ঞানীরা একটি নতুন গ্রহ আবিষ্কার করেছেন।", "category": "News/Discovery" },
+      { "englishText": "I have known him for a long time.", "banglaText": "আমি তাকে অনেক দিন ধরে চিনি।", "category": "Ongoing State" },
+      { "englishText": "Where have you parked the car?", "banglaText": "তুমি গাড়িটি কোথায় পার্ক করেছ?", "category": "Wh- Question" }
+    ]
+  },
+  "present-perfect-continuous": {
+    "title": "Understanding Present Perfect Continuous",
+    "description": "Emphasize the duration and ongoing nature of actions that began in the past and continue now.",
+    "rules": [
+      {
+        "title": "Affirmative Sentences (হ্যাঁ-সূচক বাক্য)",
+        "structure": "Subject + have / has + been + V-ing + Object + since / for + Time",
+        "explanation": "Use 'have been' or 'has been' followed by the -ing form of the verb. State duration with 'for' or starting point with 'since'.",
+        "banglaExplanation": "অতীতের কোনো সময় থেকে শুরু হয়ে এখনও কোনো কাজ চলছে বোঝালে have/has been + verb-ing বসে।",
+        "examples": [
+          "I have been studying for three hours.",
+          "It has been raining since morning.",
+          "They have been working on this project all week."
+        ]
+      },
+      {
+        "title": "Negative Sentences (না-সূচক বাক্য)",
+        "structure": "Subject + have / has + not + been + V-ing + Object",
+        "explanation": "Insert 'not' between have/has and been (haven't been / hasn't been).",
+        "banglaExplanation": "না-সূচক বাক্যে have/has এবং been এর মাঝে not বসে।",
+        "examples": [
+          "He hasn't been taking his medicine regularly.",
+          "We haven't been practicing enough lately.",
+          "She hasn't been feeling well this week."
+        ]
+      },
+      {
+        "title": "Question Sentences (প্রশ্নবোধক বাক্য)",
+        "structure": "Have / Has + Subject + been + V-ing + Object?",
+        "explanation": "Move have/has before the subject, keeping 'been + V-ing' together after the subject.",
+        "banglaExplanation": "প্রশ্ন তৈরি করতে Have বা Has কে কর্তার আগে আনা হয়।",
+        "examples": [
+          "Have you been waiting long?",
+          "Has it been raining over there?",
+          "Have they been living here for many years?"
+        ]
+      },
+      {
+        "title": "Wh- Questions (Wh- প্রশ্নবোধক বাক্য)",
+        "structure": "How long / Wh-word + have / has + Subject + been + V-ing?",
+        "explanation": "'How long' is the most common question phrase used with this tense to ask about duration.",
+        "banglaExplanation": "কতক্ষণ ধরে কাজ চলছে তা জানতে সাধারণত 'How long' দিয়ে প্রশ্ন শুরু হয়।",
+        "examples": [
+          "How long have you been learning English?",
+          "What have you been doing since morning?",
+          "Where has he been staying lately?"
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Use 'since' for a specific point in time (e.g., since 8 AM, since Monday, since 2018).",
+      "Use 'for' for a length or duration of time (e.g., for two hours, for five days, for six months).",
+      "Present Perfect Continuous emphasizes the process and duration, while Present Perfect Simple emphasizes the completed result.",
+      "Stative verbs are not used in continuous forms; use Present Perfect Simple instead (e.g., 'I have known him for years', NOT 'I have been knowing him')."
+    ],
+    "whenToUse": [
+      "Actions that started in the past and are still taking place right now: 'She has been teaching here for 12 years.'",
+      "Actions that have just stopped but their visible physical effects are evident: 'The grass is wet because it has been raining.'",
+      "Temporary ongoing habits or recent changes in routine: 'I have been exercising every morning this month.'"
+    ],
+    "examples": [
+      { "englishText": "It has been raining cats and dogs since morning.", "banglaText": "সকাল থেকে মুষলধারে বৃষ্টি হচ্ছে।", "category": "Continuous Weather" },
+      { "englishText": "I have been reading this novel for two hours.", "banglaText": "আমি দুই ঘণ্টা ধরে এই উপন্যাসটি পড়ছি।", "category": "Duration" },
+      { "englishText": "She has been working in this company since 2020.", "banglaText": "সে ২০২০ সাল থেকে এই কোম্পানিতে কাজ করছে।", "category": "Career" },
+      { "englishText": "He is exhausted because he has been running.", "banglaText": "সে ক্লান্ত কারণ সে দৌড়াচ্ছিল।", "category": "Recent Effect" },
+      { "englishText": "How long have you been waiting for me?", "banglaText": "তুমি কতক্ষণ ধরে আমার জন্য অপেক্ষা করছো?", "category": "Question" },
+      { "englishText": "They have been practicing the song all afternoon.", "banglaText": "তারা সারা দুপুর ধরে গানটি অনুশীলন করছে।", "category": "Practice" },
+      { "englishText": "We haven't been sleeping well lately.", "banglaText": "আমরা সম্প্রতি ভালো ঘুমাতে পারছি না।", "category": "Negative" },
+      { "englishText": "Has she been preparing for the IELTS exam?", "banglaText": "সে কি আইইএলটিএস পরীক্ষার প্রস্তুতি নিচ্ছে?", "category": "Question" }
+    ]
+  },
+  "past-simple": {
+    "title": "Understanding Past Simple",
+    "description": "Narrate finished events, historical facts, and actions completed at a specific time in the past.",
+    "rules": [
+      {
+        "title": "Affirmative Sentences (হ্যাঁ-সূচক বাক্য)",
+        "structure": "Subject + V2 (Past Form of Verb) + Object",
+        "explanation": "Use the past form (V2) of the verb for all subjects. Regular verbs add -ed; irregular verbs change form completely.",
+        "banglaExplanation": "অতীতের কোনো নির্দিষ্ট সময়ে শেষ হওয়া কাজের জন্য Subject + V2 (অতীত রূপ) ব্যবহার করুন।",
+        "examples": [
+          "I visited my grandparents yesterday.",
+          "She bought a new laptop last week.",
+          "They lived in Germany for five years.",
+          "Alexander Bell invented the telephone."
+        ]
+      },
+      {
+        "title": "Negative Sentences (না-সূচক বাক্য)",
+        "structure": "Subject + did not (didn't) + V1 (base form) + Object",
+        "explanation": "Always use 'did not' or 'didn't' with the base form (V1). Never use V2 after did/didn't.",
+        "banglaExplanation": "না-সূচক বাক্যে did not (didn't) বসে এবং এরপর verb-এর মূল রূপ (V1) বসে।",
+        "examples": [
+          "I didn't see him at the conference.",
+          "She didn't pass the driving test.",
+          "They didn't attend the meeting yesterday."
+        ]
+      },
+      {
+        "title": "Question Sentences (প্রশ্নবোধক বাক্য)",
+        "structure": "Did + Subject + V1 (base form) + Object?",
+        "explanation": "Start with 'Did', followed by the subject and base verb (V1).",
+        "banglaExplanation": "প্রশ্ন তৈরি করতে Did দিয়ে শুরু করতে হয় এবং verb-টি মূল রূপে (V1) ফিরে আসে।",
+        "examples": [
+          "Did you finish your project on time?",
+          "Did she call you last night?",
+          "Did they enjoy the vacation?"
+        ]
+      },
+      {
+        "title": "Wh- Questions (Wh- প্রশ্নবোধক বাক্য)",
+        "structure": "Wh-word + did + Subject + V1 + Object?",
+        "explanation": "Place the Wh-question word before 'did'.",
+        "banglaExplanation": "Wh-শব্দটি did-এর পূর্বে বসে প্রশ্ন তৈরি করে।",
+        "examples": [
+          "Where did you go last weekend?",
+          "When did the train arrive?",
+          "Why did she resign from her job?"
+        ]
+      }
+    ],
+    "keyPoints": [
+      "The V2 form is used ONLY in affirmative sentences; in negatives and questions, use 'did/didn't + V1'.",
+      "Regular verbs add -ed (work → worked), but irregular verbs have unique forms (go → went, buy → bought, see → saw).",
+      "Common past time expressions: yesterday, last night, last week, three days ago, in 1995, when I was young.",
+      "Used for completed actions that have no direct connection to the present."
+    ],
+    "whenToUse": [
+      "Actions finished at a specific point in the past: 'I graduated in 2021.'",
+      "A sequence of consecutive actions in past storytelling: 'He entered the room, sat down, and opened his laptop.'",
+      "Past habits that no longer happen: 'I played tennis every day when I was a teenager.'"
+    ],
+    "examples": [
+      { "englishText": "I watched an interesting documentary yesterday.", "banglaText": "আমি গতকাল একটি আকর্ষণীয় প্রামাণ্যচিত্র দেখেছি।", "category": "Specific Time" },
+      { "englishText": "She completed her graduation last year.", "banglaText": "সে গত বছর তার গ্র্যাজুয়েশন সম্পন্ন করেছে।", "category": "Milestone" },
+      { "englishText": "We didn't go outside because of the heavy storm.", "banglaText": "ভারী ঝড়ের কারণে আমরা বাইরে যাইনি।", "category": "Negative" },
+      { "englishText": "Did you receive my message last night?", "banglaText": "তুমি কি গত রাতে আমার বার্তা পেয়েছিলে?", "category": "Question" },
+      { "englishText": "Where did you spend your winter vacation?", "banglaText": "তুমি তোমার শীতকালীন ছুটি কোথায় কাটিয়েছিলে?", "category": "Wh- Question" },
+      { "englishText": "Shakespeare wrote Hamlet in the early 1600s.", "banglaText": "শেক্সপিয়ার ১৬০০ সালের শুরুর দিকে হ্যামলেট লিখেছিলেন।", "category": "Historical Fact" },
+      { "englishText": "He woke up, ate breakfast, and rushed to office.", "banglaText": "সে ঘুম থেকে উঠল, নাস্তা করল এবং দ্রুত অফিসে গেল।", "category": "Sequence" },
+      { "englishText": "They lived in Sylhet for ten years before moving.", "banglaText": "স্থানান্তরিত হওয়ার আগে তারা দশ বছর সিলেটে বাস করেছিল।", "category": "Past State" }
+    ]
+  },
+  "past-continuous": {
+    "title": "Understanding Past Continuous",
+    "description": "Describe actions that were ongoing at a specific moment in the past or interrupted by another action.",
+    "rules": [
+      {
+        "title": "Affirmative Sentences (হ্যাঁ-সূচক বাক্য)",
+        "structure": "Subject + was / were + V-ing + Object",
+        "explanation": "Use 'was' with I/He/She/It and singular nouns. Use 'were' with We/You/They and plural nouns. Add -ing to the base verb.",
+        "banglaExplanation": "অতীতে কোনো কাজ কিছু সময় ধরে চলছিল বোঝালে was/were + verb-ing বসে।",
+        "examples": [
+          "I was reading a novel at 9 PM yesterday.",
+          "She was cooking dinner when the phone rang.",
+          "They were driving home during the storm."
+        ]
+      },
+      {
+        "title": "Negative Sentences (না-সূচক বাক্য)",
+        "structure": "Subject + was / were + not (wasn't / weren't) + V-ing + Object",
+        "explanation": "Place 'not' after was or were.",
+        "banglaExplanation": "না-সূচক বাক্যে was/were এর পরে not বসে।",
+        "examples": [
+          "I wasn't paying attention to the presentation.",
+          "He wasn't working yesterday afternoon.",
+          "They weren't expecting any visitors."
+        ]
+      },
+      {
+        "title": "Question Sentences (প্রশ্নবোধক বাক্য)",
+        "structure": "Was / Were + Subject + V-ing + Object?",
+        "explanation": "Put 'Was' or 'Were' at the start of the sentence before the subject.",
+        "banglaExplanation": "প্রশ্ন করতে Was বা Were কর্তার আগে বসান।",
+        "examples": [
+          "Were you sleeping when I called?",
+          "Was she writing the report at midnight?",
+          "Were they playing outside in the rain?"
+        ]
+      },
+      {
+        "title": "Wh- Questions (Wh- প্রশ্নবোধক বাক্য)",
+        "structure": "Wh-word + was / were + Subject + V-ing?",
+        "explanation": "Place the Wh-question word before was or were.",
+        "banglaExplanation": "Wh-শব্দটি was/were এর পূর্বে বসে।",
+        "examples": [
+          "What were you doing at 8 PM yesterday?",
+          "Why was he driving so fast?",
+          "Where were they travelling last month?"
+        ]
+      }
+    ],
+    "keyPoints": [
+      "I, He, She, It take 'was'; We, You, They take 'were'.",
+      "Interrupted actions: Combine Past Continuous (longer ongoing action) with Past Simple (interrupting action) using 'when' or 'while'.",
+      "Parallel actions: Use 'while' when two actions were happening simultaneously (e.g., 'While I was cooking, he was studying.').",
+      "Provides background atmosphere in storytelling (e.g., 'The birds were singing and the wind was blowing.')."
+    ],
+    "whenToUse": [
+      "Actions in progress at a precise point in past time: 'At 10 PM last night, I was watching a film.'",
+      "An ongoing action interrupted by a shorter one: 'I was crossing the street when I saw him.'",
+      "Two ongoing activities happening at the same time: 'While Mom was baking, Dad was cleaning the yard.'"
+    ],
+    "examples": [
+      { "englishText": "I was studying when the power went out.", "banglaText": "বিদ্যুৎ চলে যাওয়ার সময় আমি পড়ছিলাম।", "category": "Interrupted Action" },
+      { "englishText": "She was listening to music while walking in the park.", "banglaText": "পার্কে হাঁটার সময় সে গান শুনছিল।", "category": "Parallel Action" },
+      { "englishText": "Were you sleeping when the earthquake hit?", "banglaText": "ভূমিকম্পের সময় তুমি কি ঘুমাচ্ছিলে?", "category": "Question" },
+      { "englishText": "The children were laughing and playing merrily.", "banglaText": "বাচ্চারা আনন্দে হাসছিল এবং খেলছিল।", "category": "Ongoing Scene" },
+      { "englishText": "He wasn't feeling well yesterday evening.", "banglaText": "গতকাল সন্ধ্যায় সে ভালো বোধ করছিল না।", "category": "Negative" },
+      { "englishText": "What were you discussing during the break?", "banglaText": "বিরতির সময় তোমরা কী নিয়ে আলোচনা করছিলে?", "category": "Wh- Question" },
+      { "englishText": "It was raining heavily when we arrived at the airport.", "banglaText": "আমরা যখন বিমানবন্দরে পৌঁছালাম তখন প্রচুর বৃষ্টি হচ্ছিল।", "category": "Background Scene" },
+      { "englishText": "They were repairing the road all afternoon.", "banglaText": "তারা সারা বিকেল রাস্তা মেরামত করছিল।", "category": "Extended Duration" }
+    ]
+  },
+  "past-perfect": {
+    "title": "Understanding Past Perfect",
+    "description": "Clarify the chronology of two past events by establishing which action happened first.",
+    "rules": [
+      {
+        "title": "Affirmative Sentences (হ্যাঁ-সূচক বাক্য)",
+        "structure": "Subject + had + V3 (Past Participle) + Object",
+        "explanation": "Use 'had' for all subjects, followed by the past participle (V3) form of the main verb.",
+        "banglaExplanation": "অতীতে দুটি কাজ সম্পন্ন হলে যেটি আগে শেষ হয়েছিল সেটির ক্ষেত্রে had + V3 বসে।",
+        "examples": [
+          "The train had already left before we reached the station.",
+          "She had finished her dinner before the guests arrived.",
+          "They had lived in Canada before they settled in London."
+        ]
+      },
+      {
+        "title": "Negative Sentences (না-সূচক বাক্য)",
+        "structure": "Subject + had not (hadn't) + V3 + Object",
+        "explanation": "Place 'not' after 'had' (hadn't).",
+        "banglaExplanation": "না-সূচক বাক্যে had-এর পর not বসে।",
+        "examples": [
+          "I hadn't seen such a breathtaking view before.",
+          "She hadn't studied the syllabus before the exam.",
+          "They hadn't heard the news until I informed them."
+        ]
+      },
+      {
+        "title": "Question Sentences (প্রশ্নবোধক বাক্য)",
+        "structure": "Had + Subject + V3 + Object?",
+        "explanation": "Move 'Had' before the subject to formulate a question.",
+        "banglaExplanation": "প্রশ্ন করতে Had-কে বাক্যের শুরুতে কর্তার আগে আনতে হয়।",
+        "examples": [
+          "Had you locked the door before leaving the house?",
+          "Had she finished the report before the boss asked for it?",
+          "Had they visited Nepal before last year?"
+        ]
+      },
+      {
+        "title": "Wh- Questions (Wh- প্রশ্নবোধক বাক্য)",
+        "structure": "Wh-word + had + Subject + V3?",
+        "explanation": "Place the Wh-question word before 'had'.",
+        "banglaExplanation": "Wh-শব্দটি had এর পূর্বে বসে।",
+        "examples": [
+          "What had you done before they arrived?",
+          "Where had he worked before joining our team?",
+          "Why had she left the party so early?"
+        ]
+      }
+    ],
+    "keyPoints": [
+      "'Had' is uniform across all persons and numbers (I had, you had, he had, they had).",
+      "Formula with 'Before': Past Perfect + before + Past Simple (e.g., 'The patient had died before the doctor came.').",
+      "Formula with 'After': Past Simple + after + Past Perfect (e.g., 'The doctor came after the patient had died.').",
+      "Do not use Past Perfect unless there is a second past event or past time boundary to compare with."
+    ],
+    "whenToUse": [
+      "To show which of two past actions occurred first: 'When I woke up, the sun had already risen.'",
+      "In reported speech when shifting from Present Perfect or Past Simple: 'He said that he had passed the exam.'",
+      "In third conditional unreal past conditions: 'If I had studied harder, I would have passed.'"
+    ],
+    "examples": [
+      { "englishText": "The doctor arrived after the patient had died.", "banglaText": "রোগী মারা যাওয়ার পর ডাক্তার এলেন।", "category": "Chronology" },
+      { "englishText": "I had completed my homework before Mom called me.", "banglaText": "মা ডাকার আগেই আমি বাড়ির কাজ শেষ করেছিলাম।", "category": "Before Clause" },
+      { "englishText": "By the time the police arrived, the thief had escaped.", "banglaText": "পুলিশ পৌঁছানোর আগেই চোর পালিয়ে গিয়েছিল।", "category": "By The Time" },
+      { "englishText": "She had never flown in an airplane before that trip.", "banglaText": "সেই ভ্রমণের আগে সে কখনো বিমানে চড়েনি।", "category": "Prior Experience" },
+      { "englishText": "Had you prepared the presentation before the meeting?", "banglaText": "মিটিংয়ের আগে কি তুমি প্রেজেন্টেশন তৈরি করেছিলে?", "category": "Question" },
+      { "englishText": "He realized that he had forgotten his wallet at home.", "banglaText": "সে বুঝতে পারল যে সে তার মানিব্যাগ বাসায় ফেলে এসেছে।", "category": "Realization" },
+      { "englishText": "They hadn't eaten anything since breakfast.", "banglaText": "সকালের নাস্তার পর তারা আর কিছুই খায়নি।", "category": "Negative" },
+      { "englishText": "Why had she left without saying goodbye?", "banglaText": "বিদায় না জানিয়ে সে চলে গিয়েছিল কেন?", "category": "Wh- Question" }
+    ]
+  },
+  "past-perfect-continuous": {
+    "title": "Understanding Past Perfect Continuous",
+    "description": "Highlight the ongoing duration of a past action leading up to another point or event in the past.",
+    "rules": [
+      {
+        "title": "Affirmative Sentences (হ্যাঁ-সূচক বাক্য)",
+        "structure": "Subject + had + been + V-ing + Object + since / for + Time",
+        "explanation": "Use 'had been' followed by the -ing form of the verb for all subjects.",
+        "banglaExplanation": "অতীতের কোনো নির্দিষ্ট ঘটনার আগে পর্যন্ত কোনো কাজ দীর্ঘ সময় ধরে চলছিল বোঝাতে had been + verb-ing বসে।",
+        "examples": [
+          "He had been driving for six hours before he took a rest.",
+          "They had been waiting for two hours when the flight finally landed.",
+          "She had been working at that university since 2012 before she retired."
+        ]
+      },
+      {
+        "title": "Negative Sentences (না-সূচক বাক্য)",
+        "structure": "Subject + had not (hadn't) + been + V-ing + Object",
+        "explanation": "Place 'not' between had and been (hadn't been).",
+        "banglaExplanation": "না-সূচক বাক্যে had এবং been এর মাঝে not বসে।",
+        "examples": [
+          "He hadn't been feeling well for days before visiting the clinic.",
+          "We hadn't been practicing enough, so we lost the final match."
+        ]
+      },
+      {
+        "title": "Question Sentences (প্রশ্নবোধক বাক্য)",
+        "structure": "Had + Subject + been + V-ing + Object?",
+        "explanation": "Place 'Had' before the subject.",
+        "banglaExplanation": "প্রশ্ন করতে Had-কে কর্তার আগে নিয়ে আসুন।",
+        "examples": [
+          "Had you been waiting long before the bus showed up?",
+          "Had she been crying before you entered the room?"
+        ]
+      },
+      {
+        "title": "Wh- Questions (Wh- প্রশ্নবোধক বাক্য)",
+        "structure": "How long + had + Subject + been + V-ing?",
+        "explanation": "Frequently used with 'How long' to ask about the duration of the prior action.",
+        "banglaExplanation": "অতীতে কতক্ষণ ধরে কাজটি চলছিল তা জানতে 'How long' দিয়ে প্রশ্ন শুরু হয়।",
+        "examples": [
+          "How long had you been studying before you fell asleep?",
+          "What had they been doing in the workshop all day?"
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Shows cause and effect in the past: The continuous action explains a past condition (e.g., 'His hands were dirty because he had been gardening.').",
+      "'Had been' is identical for all singular and plural subjects.",
+      "Requires two reference points in the past: the continuous activity and the event that halted or followed it."
+    ],
+    "whenToUse": [
+      "To emphasize the duration of an activity before another past milestone: 'We had been playing for an hour when it began to pour.'",
+      "To describe the cause of a past physical state: 'She was out of breath because she had been jogging.'"
+    ],
+    "examples": [
+      { "englishText": "She was exhausted because she had been typing all day.", "banglaText": "সে ক্লান্ত ছিল কারণ সে সারাদিন ধরে টাইপ করছিল।", "category": "Cause & Effect" },
+      { "englishText": "They had been planning the trip for months before it was cancelled.", "banglaText": "ট্রিপটি বাতিল হওয়ার আগে তারা কয়েক মাস ধরে পরিকল্পনা করছিল।", "category": "Duration" },
+      { "englishText": "The ground was soaking wet as it had been raining heavily.", "banglaText": "মাটি ভিজে জবজব করছিল কারণ ভারী বৃষ্টি হচ্ছিল।", "category": "Past Evidence" },
+      { "englishText": "How long had you been waiting before the train arrived?", "banglaText": "ট্রেন আসার আগে তুমি কতক্ষণ ধরে অপেক্ষা করছিলে?", "category": "Question" },
+      { "englishText": "He had been looking for his glasses for twenty minutes when he found them.", "banglaText": "চশমা খুঁজে পাওয়ার আগে সে বিশ মিনিট ধরে তা খুঁজছিল।", "category": "Ongoing Search" },
+      { "englishText": "I had been living in Khulna for five years before I moved to Dhaka.", "banglaText": "ঢাকায় আসার আগে আমি পাঁচ বছর ধরে খুলনায় বসবাস করছিলাম।", "category": "Residence" },
+      { "englishText": "We hadn't been expecting any promotion when the news arrived.", "banglaText": "সংবাদটি আসার সময় আমরা কোনো পদোন্নতির আশা করছিলাম না।", "category": "Negative" },
+      { "englishText": "Had she been practicing the piano every day before the concert?", "banglaText": "কনসার্টের আগে সে কি প্রতিদিন পিয়ানো অনুশীলন করছিল?", "category": "Question" }
+    ]
+  },
+  "future-simple": {
+    "title": "Understanding Future Simple",
+    "description": "Express spontaneous decisions, promises, predictions, and upcoming future realities.",
+    "rules": [
+      {
+        "title": "Affirmative Sentences (হ্যাঁ-সূচক বাক্য)",
+        "structure": "Subject + will + V1 (base form) + Object",
+        "explanation": "Use 'will' with the base form of the verb (V1) for all subjects.",
+        "banglaExplanation": "ভবিষ্যতে কোনো কাজ সংঘটিত হবে বোঝালে Subject + will + V1 বসে।",
+        "examples": [
+          "I will call you tomorrow morning.",
+          "She will join our university next year.",
+          "Robots will perform many routine jobs in the future."
+        ]
+      },
+      {
+        "title": "Negative Sentences (না-সূচক বাক্য)",
+        "structure": "Subject + will not (won't) + V1 + Object",
+        "explanation": "Use 'will not' or the contraction 'won't' followed by the base verb.",
+        "banglaExplanation": "না-সূচক বাক্যে will not (won't) + V1 বসে।",
+        "examples": [
+          "I will not (won't) tell anyone your secret.",
+          "He won't attend the meeting tomorrow.",
+          "They won't agree to these unfavorable terms."
+        ]
+      },
+      {
+        "title": "Question Sentences (প্রশ্নবোধক বাক্য)",
+        "structure": "Will + Subject + V1 + Object?",
+        "explanation": "Place 'Will' at the beginning before the subject.",
+        "banglaExplanation": "প্রশ্ন তৈরি করতে Will বাক্যের শুরুতে কর্তার আগে বসে।",
+        "examples": [
+          "Will you help me carry these heavy bags?",
+          "Will she pass the qualifying exam?",
+          "Will they travel abroad this winter?"
+        ]
+      },
+      {
+        "title": "Wh- Questions (Wh- প্রশ্নবোধক বাক্য)",
+        "structure": "Wh-word + will + Subject + V1?",
+        "explanation": "Place the Wh-question word before 'will'.",
+        "banglaExplanation": "Wh-শব্দটি will-এর পূর্বে বসে প্রশ্ন তৈরি করে।",
+        "examples": [
+          "What will you study at college?",
+          "When will the seminar start?",
+          "Where will they host the annual celebration?"
+        ]
+      }
+    ],
+    "keyPoints": [
+      "'Will' is a modal auxiliary verb, so it never takes -s, -ed, or -ing.",
+      "Contractions: I will → I'll, He will → He'll, They will → They'll, will not → won't.",
+      "'Will' vs 'Going to': Use 'will' for spontaneous decisions made at the moment of speaking; use 'be going to' for prior plans and intentions.",
+      "Common time expressions: tomorrow, next week, soon, later, in 2030, someday."
+    ],
+    "whenToUse": [
+      "Instant, spontaneous decisions: 'The phone is ringing. I\\'ll answer it.'",
+      "Predictions based on personal opinion or belief: 'I think it will rain tonight.'",
+      "Promises, offers, and assurances: 'I will help you with your homework.'",
+      "Future facts: 'The sun will rise at 5:45 AM tomorrow.'"
+    ],
+    "examples": [
+      { "englishText": "I will send you the report by 5 PM.", "banglaText": "আমি বিকেল ৫টার মধ্যে তোমাকে রিপোর্টটি পাঠাব।", "category": "Promise" },
+      { "englishText": "It will rain later this evening.", "banglaText": "আজ সন্ধ্যায় পরে বৃষ্টি হবে।", "category": "Prediction" },
+      { "englishText": "I'll carry that heavy luggage for you.", "banglaText": "আমি তোমার জন্য ওই ভারী লাগেজটি বহন করব।", "category": "Offer" },
+      { "englishText": "She won't forget your kindness.", "banglaText": "সে তোমার দয়া ভুলবে না।", "category": "Negative" },
+      { "englishText": "Will you attend the farewell party on Friday?", "banglaText": "তুমি কি শুক্রবারে বিদায় অনুষ্ঠানে যোগ দেবে?", "category": "Question" },
+      { "englishText": "What will happen if we miss the deadline?", "banglaText": "আমরা সময়সীমা মিস করলে কী ঘটবে?", "category": "Wh- Question" },
+      { "englishText": "They will announce the results next Monday.", "banglaText": "তারা আগামী সোমবার ফলাফল ঘোষণা করবে।", "category": "Official Plan" },
+      { "englishText": "Don't worry, everything will be fine.", "banglaText": "চিন্তা করো না, সবকিছু ঠিক হয়ে যাবে।", "category": "Reassurance" }
+    ]
+  },
+  "future-continuous": {
+    "title": "Understanding Future Continuous",
+    "description": "Envision actions that will be actively in progress at a specific time in the future.",
+    "rules": [
+      {
+        "title": "Affirmative Sentences (হ্যাঁ-সূচক বাক্য)",
+        "structure": "Subject + will be + V-ing + Object",
+        "explanation": "Use 'will be' followed by the -ing form of the verb for all subjects.",
+        "banglaExplanation": "ভবিষ্যতে কোনো নির্দিষ্ট সময়ে কোনো কাজ চলতে থাকবে বোঝালে will be + verb-ing বসে।",
+        "examples": [
+          "This time tomorrow, I will be flying to Singapore.",
+          "At 8 PM tonight, she will be having dinner with her family.",
+          "They will be celebrating their anniversary this weekend."
+        ]
+      },
+      {
+        "title": "Negative Sentences (না-সূচক বাক্য)",
+        "structure": "Subject + will not be (won't be) + V-ing + Object",
+        "explanation": "Place 'not' between will and be (won't be + V-ing).",
+        "banglaExplanation": "না-সূচক বাক্যে will not be (won't be) + verb-ing বসে।",
+        "examples": [
+          "I won't be attending classes tomorrow due to illness.",
+          "She won't be working in the office this afternoon.",
+          "They won't be using the laboratory on Friday."
+        ]
+      },
+      {
+        "title": "Question Sentences (প্রশ্নবোধক বাক্য)",
+        "structure": "Will + Subject + be + V-ing + Object?",
+        "explanation": "Place 'Will' before the subject, with 'be + V-ing' coming after the subject.",
+        "banglaExplanation": "প্রশ্ন তৈরি করতে Will-কে কর্তার আগে এনে subject + be + verb-ing লিখতে হয়।",
+        "examples": [
+          "Will you be attending the seminar tomorrow?",
+          "Will she be staying with you during the holidays?",
+          "Will they be playing in the tournament next week?"
+        ]
+      },
+      {
+        "title": "Wh- Questions (Wh- প্রশ্নবোধক বাক্য)",
+        "structure": "Wh-word + will + Subject + be + V-ing?",
+        "explanation": "Place the Wh-question word before 'will'.",
+        "banglaExplanation": "Wh-শব্দটি will এর পূর্বে বসে প্রশ্ন গঠন করে।",
+        "examples": [
+          "What will you be doing this time next year?",
+          "Where will they be staying in Sylhet?",
+          "Who will be speaking at the opening ceremony?"
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Always uses 'will be' + V-ing regardless of the subject (I will be, she will be, they will be).",
+      "Very polite way to ask about someone's future intentions or plans (e.g., 'Will you be using the printer?').",
+      "Often accompanied by specific time frames: 'this time next week', 'at 10 AM tomorrow', 'in five years'."
+    ],
+    "whenToUse": [
+      "Actions that will be midway in progress at a precise point in the future: 'Don\\'t call at 3 PM; I will be taking an exam.'",
+      "Polite inquiries regarding plans: 'Will you be passing by the post office today?'",
+      "Expected continuous routines in the future: 'Next month, we will be working on the new software release.'"
+    ],
+    "examples": [
+      { "englishText": "This time next week, I will be relaxing on the beach.", "banglaText": "আগামী সপ্তাহের এই সময়ে আমি সমুদ্র সৈকতে বিশ্রাম নিতে থাকব।", "category": "Future Moment" },
+      { "englishText": "Don't call me at 2 PM, I will be conducting an interview.", "banglaText": "দুপুর ২টায় ফোন করো না, আমি তখন একটি সাক্ষাৎকার নিতে থাকব।", "category": "Interruption Warning" },
+      { "englishText": "Will you be joining us for lunch tomorrow?", "banglaText": "তুমি কি আগামীকাল দুপুরে আমাদের সাথে খাবে?", "category": "Polite Inquiry" },
+      { "englishText": "They will be practicing on the ground all morning.", "banglaText": "তারা সারা সকাল মাঠে অনুশীলন করতে থাকবে।", "category": "Extended Activity" },
+      { "englishText": "I won't be using my laptop tonight, you can borrow it.", "banglaText": "আমি আজ রাতে ল্যাপটপ ব্যবহার করব না, তুমি নিতে পার।", "category": "Negative" },
+      { "englishText": "What will you be doing at this time tomorrow?", "banglaText": "কাল এই সময়ে তুমি কী করতে থাকবে?", "category": "Wh- Question" },
+      { "englishText": "She will be preparing for her final examinations next month.", "banglaText": "পরের মাসে সে তার চূড়ান্ত পরীক্ষার প্রস্তুতি নিতে থাকবে।", "category": "Upcoming Phase" },
+      { "englishText": "The government will be monitoring the border closely.", "banglaText": "সরকার সীমান্ত গভীরভাবে নজরদারি করতে থাকবে।", "category": "Continuous Policy" }
+    ]
+  },
+  "future-perfect": {
+    "title": "Understanding Future Perfect",
+    "description": "Project into the future and look back at actions that will be completed before a specified deadline.",
+    "rules": [
+      {
+        "title": "Affirmative Sentences (হ্যাঁ-সূচক বাক্য)",
+        "structure": "Subject + will have + V3 (Past Participle) + Object + by + Time",
+        "explanation": "Use 'will have' followed by the past participle (V3) form of the verb for all subjects.",
+        "banglaExplanation": "ভবিষ্যতে কোনো নির্দিষ্ট সময়ের মধ্যে কোনো কাজ সম্পন্ন হয়ে থাকবে বোঝালে will have + V3 বসে।",
+        "examples": [
+          "I will have finished this course by December.",
+          "By the time you wake up, she will have reached the airport.",
+          "They will have constructed the stadium before the tournament starts."
+        ]
+      },
+      {
+        "title": "Negative Sentences (না-সূচক বাক্য)",
+        "structure": "Subject + will not have (won't have) + V3 + Object",
+        "explanation": "Place 'not' between will and have (won't have + V3).",
+        "banglaExplanation": "না-সূচক বাক্যে will not have (won't have) + V3 বসে।",
+        "examples": [
+          "I won't have completed the book before tomorrow.",
+          "She won't have received the degree by this summer.",
+          "They won't have saved enough money by next month."
+        ]
+      },
+      {
+        "title": "Question Sentences (প্রশ্নবোধক বাক্য)",
+        "structure": "Will + Subject + have + V3 + Object?",
+        "explanation": "Start the question with 'Will', followed by the subject and 'have + V3'.",
+        "banglaExplanation": "প্রশ্ন করতে Will-কে কর্তার আগে নিয়ে আসতে হয়।",
+        "examples": [
+          "Will you have finished the assignment by 8 PM?",
+          "Will she have graduated by next year?",
+          "Will the train have arrived by noon?"
+        ]
+      },
+      {
+        "title": "Wh- Questions (Wh- প্রশ্নবোধক বাক্য)",
+        "structure": "Wh-word + will + Subject + have + V3 + by + Time?",
+        "explanation": "Place the Wh-question word before 'will'.",
+        "banglaExplanation": "Wh-শব্দটি will-এর পূর্বে বসে প্রশ্ন তৈরি করে।",
+        "examples": [
+          "What will you have achieved by age thirty?",
+          "How many lessons will we have completed by next Friday?",
+          "Where will they have relocated by next winter?"
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Always uses 'will have' for all subjects; never use 'will has'.",
+      "Almost always paired with a time clause introduced by 'by' (by tomorrow, by 2030, by the time you arrive).",
+      "In the time clause after 'by the time', use Present Simple, NOT Future Simple (e.g., 'by the time he arrives', NOT 'by the time he will arrive')."
+    ],
+    "whenToUse": [
+      "To describe an action that will be completed prior to a specific deadline in the future: 'By 5 PM, I will have reviewed all documents.'",
+      "To express certainty about what will have occurred before another future action: 'By the time the guests arrive, Mom will have baked the cake.'"
+    ],
+    "examples": [
+      { "englishText": "By next month, I will have finished my master's thesis.", "banglaText": "আগামী মাসের মধ্যে আমি আমার মাস্টার্স থিসিস শেষ করে ফেলব।", "category": "Academic Goal" },
+      { "englishText": "By 10 PM tonight, the flight will have landed in Dubai.", "banglaText": "আজ রাত ১০টার মধ্যে ফ্লাইটটি দুবাইতে অবতরণ করে থাকবে।", "category": "Transit Deadline" },
+      { "englishText": "She will have cleaned the entire house before guests arrive.", "banglaText": "মেহমান আসার আগেই সে পুরো বাড়ি পরিষ্কার করে ফেলবে।", "category": "Pre-event Task" },
+      { "englishText": "Will you have submitted your tax return by Friday?", "banglaText": "তুমি কি শুক্রবারের মধ্যে তোমার ট্যাক্স রিটার্ন জমা দিয়ে ফেলবে?", "category": "Question" },
+      { "englishText": "They won't have completed the bridge before the monsoon starts.", "banglaText": "বর্ষা শুরু হওয়ার আগে তারা সেতুটি সম্পন্ন করতে পারবে না।", "category": "Negative" },
+      { "englishText": "By 2030, technology will have transformed healthcare completely.", "banglaText": "২০৩০ সালের মধ্যে প্রযুক্তি স্বাস্থ্যসেবাকে পুরোপুরি বদলে ফেলবে।", "category": "Future Projection" },
+      { "englishText": "How many books will you have read by the end of this year?", "banglaText": "এই বছরের শেষের মধ্যে তুমি কতগুলো বই পড়ে শেষ করবে?", "category": "Wh- Question" },
+      { "englishText": "By tomorrow afternoon, the doctor will have examined all patients.", "banglaText": "আগামীকাল বিকেলের মধ্যে ডাক্তার সব রোগীকে পরীক্ষা করে ফেলবেন।", "category": "Professional Duty" }
+    ]
+  },
+  "future-perfect-continuous": {
+    "title": "Understanding Future Perfect Continuous",
+    "description": "Emphasize the uninterrupted ongoing duration of an action up to a targeted point in the future.",
+    "rules": [
+      {
+        "title": "Affirmative Sentences (হ্যাঁ-সূচক বাক্য)",
+        "structure": "Subject + will have been + V-ing + Object + for + Duration + by + Future Time",
+        "explanation": "Use 'will have been' followed by the -ing form of the verb. Specify the duration using 'for' and the milestone using 'by'.",
+        "banglaExplanation": "ভবিষ্যতে কোনো নির্দিষ্ট সময় পর্যন্ত কোনো কাজ নির্দিষ্ট সময় ধরে চলতে থাকবে বোঝাতে will have been + verb-ing বসে।",
+        "examples": [
+          "By next year, I will have been teaching for twenty years.",
+          "By 8 PM, she will have been studying for eight straight hours.",
+          "In December, they will have been living in this house for a decade."
+        ]
+      },
+      {
+        "title": "Negative Sentences (না-সূচক বাক্য)",
+        "structure": "Subject + will not have been (won't have been) + V-ing + Object",
+        "explanation": "Place 'not' after will (won't have been + V-ing).",
+        "banglaExplanation": "না-সূচক বাক্যে will not have been (won't have been) বসে।",
+        "examples": [
+          "By noon, he won't have been driving long enough to need a rest.",
+          "She won't have been working here long enough to qualify for the award."
+        ]
+      },
+      {
+        "title": "Question Sentences (প্রশ্নবোধক বাক্য)",
+        "structure": "Will + Subject + have been + V-ing + Object?",
+        "explanation": "Move 'Will' before the subject to structure a question.",
+        "banglaExplanation": "প্রশ্ন গঠন করতে Will-কে কর্তার আগে নিয়ে আসতে হয়।",
+        "examples": [
+          "Will you have been working here for five years by next July?",
+          "Will they have been rehearsing long enough to perform tomorrow?"
+        ]
+      },
+      {
+        "title": "Wh- Questions (Wh- প্রশ্নবোধক বাক্য)",
+        "structure": "How long + will + Subject + have been + V-ing + by + Time?",
+        "explanation": "Often paired with 'How long' to calculate future duration.",
+        "banglaExplanation": "ভবিষ্যতে কতদিন বা কতক্ষণ ধরে কাজ চলতে থাকবে তা জানতে 'How long' ব্যবহার করা হয়।",
+        "examples": [
+          "How long will you have been living here by 2028?",
+          "How many hours will she have been coding by midnight?"
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Always 'will have been' + V-ing regardless of whether subject is singular or plural.",
+      "Pair with both duration ('for X years/hours') and a future benchmark ('by next month/year').",
+      "Stative verbs are not used in continuous forms; use Future Perfect Simple instead."
+    ],
+    "whenToUse": [
+      "To project forward and calculate the length of an ongoing commitment or habit: 'By next month, we will have been dating for five years.'",
+      "To explain the future effect of prolonged effort: 'By the time he finishes the marathon, he will have been running for four hours.'"
+    ],
+    "examples": [
+      { "englishText": "By next November, I will have been teaching at this college for 15 years.", "banglaText": "আগামী নভেম্বরে আমি এই কলেজে ১৫ বছর ধরে শিক্ষকতা করতে থাকব।", "category": "Milestone" },
+      { "englishText": "By midnight, the developers will have been coding for twelve hours.", "banglaText": "মধ্যরাত নাগাদ ডেভেলপাররা বারো ঘণ্টা ধরে কোডিং করতে থাকবে।", "category": "Continuous Effort" },
+      { "englishText": "In 2027, they will have been married for twenty-five years.", "banglaText": "২০২৭ সালে তাদের দাম্পত্য জীবনের পঁচিশ বছর পূর্ণ হতে থাকবে।", "category": "Anniversary" },
+      { "englishText": "How long will you have been driving by the time we reach the border?", "banglaText": "আমরা সীমান্তে পৌঁছানোর সময় তুমি কতক্ষণ ধরে গাড়ি চালাতে থাকবে?", "category": "Question" },
+      { "englishText": "By next week, she will have been living abroad for a full year.", "banglaText": "আগামী সপ্তাহে তার বিদেশে থাকার এক বছর পূর্ণ হতে থাকবে।", "category": "Duration" },
+      { "englishText": "When the bell rings, the students will have been writing for two hours.", "banglaText": "ঘণ্টা বাজার সময় ছাত্রছাত্রীরা দুই ঘণ্টা ধরে লিখতে থাকবে।", "category": "Exam Context" },
+      { "englishText": "He won't have been training long enough to enter the national championship.", "banglaText": "জাতীয় চ্যাম্পিয়নশিপে অংশ নেওয়ার মতো দীর্ঘ সময় ধরে সে প্রশিক্ষণ নিতে থাকবে না।", "category": "Negative" },
+      { "englishText": "By sunrise, the doctors will have been operating on patients all night.", "banglaText": "সূর্যোদয়ের সময় ডাক্তাররা সারারাত ধরে রোগীদের অপারেশন করতে থাকবেন।", "category": "Service" }
+    ]
+  }
+}
