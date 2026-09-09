@@ -5,6 +5,8 @@ import User from '@/models/User';
 import bcrypt from 'bcryptjs';
 
 export const { handlers, signIn, signOut, auth } = NextAuth({
+  secret: process.env.AUTH_SECRET || process.env.NEXTAUTH_SECRET || 'grammarflow-super-secret-key-change-in-production',
+  trustHost: true,
   providers: [
     Credentials({
       name: 'credentials',
