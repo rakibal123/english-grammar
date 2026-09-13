@@ -101,8 +101,8 @@ async function updateUserProgress(
     mastery >= 40 ? 'learning' :
     'beginner';
 
-  // completion based on tests taken (max 100% after 3 tests)
-  const completion = Math.min(100, Math.round((newAttempts / 3) * 100));
+  // completion based on tests taken (max 100% after 1 test)
+  const completion = Math.min(100, Math.round((newAttempts / 1) * 100));
 
   await UserProgress.findOneAndUpdate(
     { userId, topicId },

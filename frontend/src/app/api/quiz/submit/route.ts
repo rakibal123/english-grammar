@@ -78,7 +78,7 @@ export async function POST(request: NextRequest) {
     const newBest = Math.max(existing?.bestScore || 0, percentage);
     const mastery = Math.min(100, Math.round(newAvg * 0.7 + newBest * 0.3));
     const masteryLevel = mastery >= 80 ? 'mastered' : mastery >= 60 ? 'improving' : mastery >= 40 ? 'learning' : 'beginner';
-    const completion = Math.min(100, Math.round((newAttempts / 3) * 100));
+    const completion = Math.min(100, Math.round((newAttempts / 1) * 100));
 
     await UserProgress.findOneAndUpdate(
       { userId, topicId },
